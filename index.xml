@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Example Site</title>
+        <link>https:Poliki.github.io/</link>
+        <description>Recent content on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="https:Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NewStartHugo</title>
+        <link>https:Poliki.github.io/p/newstarthugo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https:Poliki.github.io/p/newstarthugo/</guid>
+        <description>&lt;h4 id=&#34;再装hugo&#34;&gt;再装Hugo&lt;/h4&gt;
+&lt;p&gt;主要是重装后配的hugo都么有了，这次重新看以前的笔记和视频来配置一次&lt;/p&gt;
+&lt;h5 id=&#34;建博初衷&#34;&gt;建博初衷&lt;/h5&gt;
+&lt;p&gt;无限听说&amp;quot;&lt;strong&gt;程序员拥有自己的技术博客是一件非常重要的事情&lt;/strong&gt;&amp;quot;&lt;/p&gt;
+&lt;h5 id=&#34;初识hugo&#34;&gt;初识Hugo&lt;/h5&gt;
+&lt;h6 id=&#34;官方主页&#34;&gt;官方主页：&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;https://gohugo.io&lt;/a&gt;&lt;/p&gt;
+&lt;h6 id=&#34;主题库&#34;&gt;主题库：&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.hugo.io&#34;&gt;https://themes.hugo.io&lt;/a&gt;&lt;/p&gt;
+&lt;h6 id=&#34;介绍&#34;&gt;介绍&lt;/h6&gt;
+&lt;p&gt;hugo 是基于 Go 语言的静态网站生成器。有两种方式发布生成的静态网站文件：&lt;/p&gt;
+&lt;p&gt;1.放到自己的服务器上提供服务：需要自己购买服务器
+2.把网站托管到 GitHub Pages：需要将静态页面文件 push 到 GitHub 的博客项目的 gh-pages 分支并确保根目录下有 index.html 文件。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h5&gt;
+&lt;h6 id=&#34;1官网下载&#34;&gt;1.官网下载&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;找到Windows的版本进行安装，全程科学上网提速&lt;/p&gt;
+&lt;h6 id=&#34;2配置环境变量--win-10-&#34;&gt;2.配置环境变量 [ Win 10 ]&lt;/h6&gt;
+&lt;p&gt;环境变量是经常配错的了，用户变量&amp;amp;系统变量搅浑是常态&lt;/p&gt;
+&lt;p&gt;这次亲测是在&lt;strong&gt;系统变量&lt;/strong&gt;下，选择path -&amp;gt; 新建 -&amp;gt; 把刚解压的文件路径复制进去&lt;/p&gt;
+&lt;p&gt;如我的是：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;D:\hugo_0.76.5
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;3查看版本&#34;&gt;3.查看版本&lt;/h6&gt;
+&lt;p&gt;CMD下输入&lt;code&gt;hugo version&lt;/code&gt;就能查看到版本信息&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;生成本地站点&#34;&gt;生成本地站点&lt;/h5&gt;
+&lt;h6 id=&#34;1git&#34;&gt;1.Git&lt;/h6&gt;
+&lt;p&gt;后面的命令基于Git，没有安装的话去看 ”Git的安装与使用“&lt;/p&gt;
+&lt;h6 id=&#34;2生成站点&#34;&gt;2.生成站点&lt;/h6&gt;
+&lt;p&gt;在你的安装目录下，我的是 &lt;code&gt;D:\hugo_0.76.5&lt;/code&gt;，右键 git bash here&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new site 站点名称
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后就会生成这个”站点名称“文件夹了&lt;/p&gt;
+&lt;h6 id=&#34;3设置主题&#34;&gt;3.设置主题&lt;/h6&gt;
+&lt;p&gt;去主题库的网站（上文有）中找到你喜欢的，下载然后解压到&lt;code&gt;站点名称/themes&lt;/code&gt; 文件夹中，有的会让你直接git下载，不过推荐去Github链接那里下快一点，详细的可以看每个主题下的说明文档&lt;/p&gt;
+&lt;p&gt;然后点进站点文件再 git bash here 执行&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo server -t 你的主题名称 --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后就会以这个主题来启动本地项目了，往下拉就能看到&lt;code&gt;Web Server is available at http://localhost:xxxx/ &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;打开浏览器输入链接就能看到主题了&lt;/p&gt;
+&lt;h6 id=&#34;4上传文章&#34;&gt;4.上传文章&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new post/yourblog.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个就是在post文件夹下新建了一个markdown文件&lt;/p&gt;
+&lt;p&gt;实际路径是 站点名称/content/post 中&lt;/p&gt;
+&lt;p&gt;然后编辑里面的md，重新开一次服务&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo server -t 你的主题名称 --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一定要用new的方式建博客，直接复制一个md进去是没有用的，不过删是可以直接删&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;部署到远端&#34;&gt;部署到远端&lt;/h5&gt;
+&lt;h6 id=&#34;1github-新建一个仓库&#34;&gt;1.GitHub 新建一个仓库&lt;/h6&gt;
+&lt;p&gt;！！！这个仓库的名字一定要是 &lt;code&gt;你的github昵称.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我的就是 &lt;code&gt;Poliki.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;h6 id=&#34;2敲一堆命令&#34;&gt;2.敲一堆命令&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo --theme=你的主题名 --buildDrafts --baseUrl=&amp;quot;https://你的昵称.github.io/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后就会给你生成一个public文件夹&lt;/p&gt;
+&lt;h6 id=&#34;3把public文件夹传上去github&#34;&gt;3.把public文件夹传上去Github&lt;/h6&gt;
+&lt;p&gt;没有用过Github建仓库的建议先去看“Github的使用”&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;在public目录下 git bash
+
+$ git init   //初始仓库
+$ git add .  //添加文件到缓存区
+$ git commit -m &amp;quot;这里是描述信息&amp;quot;  //提交
+如果这里你之前没有设置过git初始化会叫你填信息
+$ git config --global user.email &amp;quot;you@example.com&amp;quot;
+$ git config --global user.name &amp;quot;Your Name&amp;quot;
+如果有就没事了
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git
+//关联 按格式改地址
+$ git push https://github.com/Poliki/Poliki.github.io master
+//推送上去 master是Github以前的默认分支，现在叫main了，问题不大改一下就好
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后就可以访问一下&lt;/p&gt;
+&lt;p&gt;你的昵称.github.io.git检验成果了&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
