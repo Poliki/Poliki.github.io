@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Example Site</title>
-    <link>https:Poliki.github.io/post/</link>
+    <link>https://Poliki.github.io/post/</link>
     <description>Recent content in Posts on Example Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https:Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NewStartHugo</title>
-      <link>https:Poliki.github.io/p/newstarthugo/</link>
+      <link>https://Poliki.github.io/p/newstarthugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https:Poliki.github.io/p/newstarthugo/</guid>
+      <guid>https://Poliki.github.io/p/newstarthugo/</guid>
       <description>再装Hugo 主要是重装后配的hugo都么有了，这次重新看以前的笔记和视频来配置一次
 建博初衷 无限听说&amp;quot;程序员拥有自己的技术博客是一件非常重要的事情&amp;quot;
 初识Hugo 官方主页： https://gohugo.io

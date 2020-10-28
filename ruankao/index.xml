@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruankaos on Example Site</title>
+    <link>https://Poliki.github.io/ruankao/</link>
+    <description>Recent content in Ruankaos on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2020 21:15:08 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标准化和软件知识产权基础知识</title>
+      <link>https://Poliki.github.io/ruankao/%E6%A0%87%E5%87%86%E5%8C%96%E5%92%8C%E8%BD%AF%E4%BB%B6%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Wed, 28 Oct 2020 21:15:08 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/ruankao/%E6%A0%87%E5%87%86%E5%8C%96%E5%92%8C%E8%BD%AF%E4%BB%B6%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description>粗略地上传一下11月软考的复习进度 1.买了一个工具软件，用工具开发新的软件，然后卖这个软件的同时向客户提供工具的复制品是侵犯了著作权，然后又没有注册商标，被其他公司山寨，也是著作权受侵犯 1.向客户提供买的工具的复制品是侵犯著作权 2.作品完成时就有了著作权，注册了商标后才设计商标权保护和不正当竞争法保护
+2.ISO / IEC 9126 软件质量模型 软件质量特性【功能性】包含 适合性、准确性、互用性、依从性和安全性 【可靠性】 包含成熟性、容错性、易恢复性 【可靠性】 包含成熟性、容错性、易恢复性
+3.有可能无限期拥有的知识产权是 商标权 -&amp;gt; 可以通过续注延长有用期限 著作权、专利权、设计权的保护期限都是有期限的
+4.保护计算机软件著作权的两个基本法律文件 《中华人民共和国著作权法》 《计算机软件保护条例》
+5.著作权中，署名权的保护期不受限制 著作权的其他权利保护期为25年，最长50年 发表权的保护期受时间限制
+6.商标法 能获得注册的商标是 青岛（市） -&amp;gt;青岛啤酒
+7.你买了一张有注册商标的应用软件光盘 你就享有了该光盘的所有权
+8.商标法2 必须使用注册商标的是 ： 烟草制品
+9.在中国不享有专利权 因此不能禁止他人在中国制造使用销售进口许诺销售
+10.商标注册 1.申请在先的原则 2.两个或以上申请人在同一种/类似商品申请相同/相近的商品时，使用在先的获得，否则抽签
+11.你买了一个美术作品原件，你就有了所有权的展览权 14.引援资料时，总股本发引用已发表的作品 15.合理使用 ：不经著作权人许可，不需支付报酬 16.著作权中的翻译权 以不同于原软件作品的一种程序语言转换该作品原使用的程序语言…就是用别的语言写
+17.软件商标权的权利人是指 软件注册商标所有人
+18.授予专利原则 先申请原则，同日就要协商，协商不成就都不批准
+19.软件许可使用 1.独占许可 实施后软件著作权人不得将软件使用权授予第三方，自己也不能使用 2.独家许可 不得授予第三方，自己可以使用 3.普通许可 可以授予第三方，自己可以使用</description>
+    </item>
+    
+  </channel>
+</rss>
