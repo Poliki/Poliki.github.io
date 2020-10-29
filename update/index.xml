@@ -14,7 +14,10 @@
       
       <guid>https://Poliki.github.io/update/%E6%9B%B4%E6%96%B0%E7%9A%84%E5%91%BD%E4%BB%A4/</guid>
       <description>每次更新就来复制一下
-   $ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot;          </description>
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot;   $ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push https://github.com/Poliki/Poliki.github.io master </description>
     </item>
     
   </channel>

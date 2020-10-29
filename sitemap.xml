@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Poliki.github.io/p/bindtothedomain/</loc>
+    <lastmod>2020-10-29T22:59:42+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Poliki.github.io/</loc>
-    <lastmod>2020-10-28T21:25:37+08:00</lastmod>
+    <lastmod>2020-10-29T22:59:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Poliki.github.io/post/</loc>
+    <lastmod>2020-10-29T22:59:42+08:00</lastmod>
   </url>
   
   <url>
@@ -33,10 +43,6 @@
   
   <url>
     <loc>https://Poliki.github.io/p/newstarthugo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://Poliki.github.io/post/</loc>
   </url>
   
   <url>
