@@ -6,7 +6,28 @@
     <description>Recent content in Ruankaos on Example Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2020 21:15:08 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2020 01:05:36 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多媒体的基本知识</title>
+      <link>https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Sat, 31 Oct 2020 01:05:36 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</guid>
+      <description>1.数字语言的采样频率定义为8kHz，因为 语言信号定义的频率最高是4kHz 采样频率大或等于工作频率的两倍，才能在以后恢复出实际波形防止信息丢失
+2.使用扫描仪以 300DPI的分辨率扫 3X4英寸的图片 ，可以得到 900X1200 的数字图像 DPI为 像素/英寸
+3.在FM方式的数字音乐合成器中，改变数字载波频率可以改变乐音的____，改变它的信号幅度可以改变乐音的_____。 音调，音高
+4.媒体格式文件 WAV 声音格式 BMP 标准图像格式 MP3 音频压缩技术 MOV 是QuickTime影片格式
+5.150DPI 3X4英寸 原始的24位图像的数据量是 150DPI的扫描分辨率表示每英寸像素150个 3X4X150 X150X24 /8 =810000
+6.人耳能听到的音频信号的频率范围 20Hz~20kHz
+7.颜色深度 有几位就是2的几次方 种不同的颜色或灰度等级
+8.亮度、色调、饱和度 饱和度是指颜色的纯度
+8.显示/水平/垂直分辨率，显示深度 显示分辨率：显示器上能够显示出的像素点数目（横向和纵向） 水平分辨率: 显示器水平方向(横向)… 垂直分辨率：显示器垂直（纵向）… 显示深度：显示器上每个像素点颜色的二进制位数 ！当显示器显示数字图像时应该显示深度大于或等于数字图像的深度，就可以反映使用的颜色
+9.传输/表示/表现/存储媒体 传输：物理介质-&amp;gt;电缆光缆 表示：数据交换的编码：图像。文本、声音 表现：信息输出输入-&amp;gt;键盘、鼠标、话筒、显示器、打印机、XX机 存储：物理介质-&amp;gt;硬盘、光盘
+10.矢量图、位图 矢量图 图元是描述其的基本组成单位 处理侧重 绘制和创建 位图 像素点来描述的图 占用储存空间较大 处理侧重 获取和复制 显示速度较快
+11.声音信号数字化 / 计算机处理模拟视频信号 过程中首先要进行 A/D转换（模数转换) -&amp;gt;用二进制数字编码来表示声音
+12.当用户等待过长放弃下载/显示图片/影像时可以通过 1.流媒体 2.JPEG累进编码 3.GIF图像文件格式 来解决</description>
+    </item>
+    
     <item>
       <title>标准化和软件知识产权基础知识</title>
       <link>https://Poliki.github.io/ruankao/%E6%A0%87%E5%87%86%E5%8C%96%E5%92%8C%E8%BD%AF%E4%BB%B6%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>

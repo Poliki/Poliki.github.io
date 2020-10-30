@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='1.数字语言的采样频率定义为8kHz，因为 语言信号定义的频率最高是4kHz 采样频率大或等于工作频率的两倍，才能在以后恢复出实际波形防止信息丢失
+2.使用扫描仪以 300DPI的分辨率扫 3X4英寸的图片 ，可以得到 900X1200 的数字图像 DPI为 像素/英寸
+3.在FM方式的数字音乐合成器中，改变数字载波频率可以改变乐音的____，改变它的信号幅度可以改变乐音的_____。 音调，音高
+4.媒体格式文件 WAV 声音格式 BMP 标准图像格式 MP3 音频压缩技术 MOV 是QuickTime影片格式
+5.150DPI 3X4英寸 原始的24位图像的数据量是 150DPI的扫描分辨率表示每英寸像素150个 3X4X150 X150X24 /8 =810000
+6.人耳能听到的音频信号的频率范围 20Hz~20kHz
+7.颜色深度 有几位就是2的几次方 种不同的颜色或灰度等级
+8.亮度、色调、饱和度 饱和度是指颜色的纯度
+8.显示/水平/垂直分辨率，显示深度 显示分辨率：显示器上能够显示出的像素点数目（横向和纵向） 水平分辨率: 显示器水平方向(横向)… 垂直分辨率：显示器垂直（纵向）… 显示深度：显示器上每个像素点颜色的二进制位数 ！当显示器显示数字图像时应该显示深度大于或等于数字图像的深度，就可以反映使用的颜色
+9.传输/表示/表现/存储媒体 传输：物理介质-&amp;gt;电缆光缆 表示：数据交换的编码：图像。文本、声音 表现：信息输出输入-&amp;gt;键盘、鼠标、话筒、显示器、打印机、XX机 存储：物理介质-&amp;gt;硬盘、光盘
+10.矢量图、位图 矢量图 图元是描述其的基本组成单位 处理侧重 绘制和创建 位图 像素点来描述的图 占用储存空间较大 处理侧重 获取和复制 显示速度较快
+11.声音信号数字化 / 计算机处理模拟视频信号 过程中首先要进行 A/D转换（模数转换) -&amp;gt;用二进制数字编码来表示声音
+12.当用户等待过长放弃下载/显示图片/影像时可以通过 1.流媒体 2.JPEG累进编码 3.GIF图像文件格式 来解决'><title>多媒体的基本知识</title>
+    
+    <link rel='canonical' href='https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='多媒体的基本知识'>
+<meta property='og:description' content='1.数字语言的采样频率定义为8kHz，因为 语言信号定义的频率最高是4kHz 采样频率大或等于工作频率的两倍，才能在以后恢复出实际波形防止信息丢失
+2.使用扫描仪以 300DPI的分辨率扫 3X4英寸的图片 ，可以得到 900X1200 的数字图像 DPI为 像素/英寸
+3.在FM方式的数字音乐合成器中，改变数字载波频率可以改变乐音的____，改变它的信号幅度可以改变乐音的_____。 音调，音高
+4.媒体格式文件 WAV 声音格式 BMP 标准图像格式 MP3 音频压缩技术 MOV 是QuickTime影片格式
+5.150DPI 3X4英寸 原始的24位图像的数据量是 150DPI的扫描分辨率表示每英寸像素150个 3X4X150 X150X24 /8 =810000
+6.人耳能听到的音频信号的频率范围 20Hz~20kHz
+7.颜色深度 有几位就是2的几次方 种不同的颜色或灰度等级
+8.亮度、色调、饱和度 饱和度是指颜色的纯度
+8.显示/水平/垂直分辨率，显示深度 显示分辨率：显示器上能够显示出的像素点数目（横向和纵向） 水平分辨率: 显示器水平方向(横向)… 垂直分辨率：显示器垂直（纵向）… 显示深度：显示器上每个像素点颜色的二进制位数 ！当显示器显示数字图像时应该显示深度大于或等于数字图像的深度，就可以反映使用的颜色
+9.传输/表示/表现/存储媒体 传输：物理介质-&amp;gt;电缆光缆 表示：数据交换的编码：图像。文本、声音 表现：信息输出输入-&amp;gt;键盘、鼠标、话筒、显示器、打印机、XX机 存储：物理介质-&amp;gt;硬盘、光盘
+10.矢量图、位图 矢量图 图元是描述其的基本组成单位 处理侧重 绘制和创建 位图 像素点来描述的图 占用储存空间较大 处理侧重 获取和复制 显示速度较快
+11.声音信号数字化 / 计算机处理模拟视频信号 过程中首先要进行 A/D转换（模数转换) -&amp;gt;用二进制数字编码来表示声音
+12.当用户等待过长放弃下载/显示图片/影像时可以通过 1.流媒体 2.JPEG累进编码 3.GIF图像文件格式 来解决'>
+<meta property='og:url' content='https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Ruankao' /><meta property='article:published_time' content='2020-10-31T01:05:36&#43;08:00'/><meta property='article:modified_time' content='2020-10-31T01:05:36&#43;08:00'/>
+<meta name="twitter:title" content="多媒体的基本知识">
+<meta name="twitter:description" content="1.数字语言的采样频率定义为8kHz，因为 语言信号定义的频率最高是4kHz 采样频率大或等于工作频率的两倍，才能在以后恢复出实际波形防止信息丢失
+2.使用扫描仪以 300DPI的分辨率扫 3X4英寸的图片 ，可以得到 900X1200 的数字图像 DPI为 像素/英寸
+3.在FM方式的数字音乐合成器中，改变数字载波频率可以改变乐音的____，改变它的信号幅度可以改变乐音的_____。 音调，音高
+4.媒体格式文件 WAV 声音格式 BMP 标准图像格式 MP3 音频压缩技术 MOV 是QuickTime影片格式
+5.150DPI 3X4英寸 原始的24位图像的数据量是 150DPI的扫描分辨率表示每英寸像素150个 3X4X150 X150X24 /8 =810000
+6.人耳能听到的音频信号的频率范围 20Hz~20kHz
+7.颜色深度 有几位就是2的几次方 种不同的颜色或灰度等级
+8.亮度、色调、饱和度 饱和度是指颜色的纯度
+8.显示/水平/垂直分辨率，显示深度 显示分辨率：显示器上能够显示出的像素点数目（横向和纵向） 水平分辨率: 显示器水平方向(横向)… 垂直分辨率：显示器垂直（纵向）… 显示深度：显示器上每个像素点颜色的二进制位数 ！当显示器显示数字图像时应该显示深度大于或等于数字图像的深度，就可以反映使用的颜色
+9.传输/表示/表现/存储媒体 传输：物理介质-&amp;gt;电缆光缆 表示：数据交换的编码：图像。文本、声音 表现：信息输出输入-&amp;gt;键盘、鼠标、话筒、显示器、打印机、XX机 存储：物理介质-&amp;gt;硬盘、光盘
+10.矢量图、位图 矢量图 图元是描述其的基本组成单位 处理侧重 绘制和创建 位图 像素点来描述的图 占用储存空间较大 处理侧重 获取和复制 显示速度较快
+11.声音信号数字化 / 计算机处理模拟视频信号 过程中首先要进行 A/D转换（模数转换) -&amp;gt;用二进制数字编码来表示声音
+12.当用户等待过长放弃下载/显示图片/影像时可以通过 1.流媒体 2.JPEG累进编码 3.GIF图像文件格式 来解决"></head><body class="article-page keep-sidebar">
+        <div class="container flex on-phone--column align-items--flex-start extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+
+                
+                    
+                    <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x300_resize_box_2.png" width="300"
+                        height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+
+                <span class="emoji">🍥</span>
+            </figure>
+        
+        <h1 class="site-name"><a href="https://Poliki.github.io/">Example Site</a></h1>
+        <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/">多媒体的基本知识</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Oct 31, 2020</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h6 id="1数字语言的采样频率定义为8khz因为">1.数字语言的采样频率定义为8kHz，因为</h6>
+<p>语言信号定义的频率最高是4kHz
+采样频率大或等于工作频率的两倍，才能在以后恢复出实际波形防止信息丢失</p>
+<h6 id="2使用扫描仪以-300dpi的分辨率扫-3x4英寸的图片-可以得到-900x1200-的数字图像">2.使用扫描仪以 300DPI的分辨率扫 3X4英寸的图片 ，可以得到 900X1200 的数字图像</h6>
+<p>DPI为 像素/英寸</p>
+<h6 id="3在fm方式的数字音乐合成器中改变数字载波频率可以改变乐音的____改变它的信号幅度可以改变乐音的_____">3.在FM方式的数字音乐合成器中，改变数字载波频率可以改变乐音的____，改变它的信号幅度可以改变乐音的_____。</h6>
+<p>音调，音高</p>
+<h6 id="4媒体格式文件">4.媒体格式文件</h6>
+<p>WAV 声音格式
+BMP 标准图像格式
+MP3 音频压缩技术
+MOV 是QuickTime影片格式</p>
+<h6 id="5150dpi-3x4英寸-原始的24位图像的数据量是">5.150DPI 3X4英寸 原始的24位图像的数据量是</h6>
+<p>150DPI的扫描分辨率表示每英寸像素150个
+3X4X150 X150X24 /8 =810000</p>
+<h6 id="6人耳能听到的音频信号的频率范围">6.人耳能听到的音频信号的频率范围</h6>
+<p>20Hz~20kHz</p>
+<h6 id="7颜色深度">7.颜色深度</h6>
+<p>有几位就是2的几次方 种不同的颜色或灰度等级</p>
+<h6 id="8亮度色调饱和度">8.亮度、色调、饱和度</h6>
+<p>饱和度是指颜色的纯度</p>
+<h6 id="8显示水平垂直分辨率显示深度">8.显示/水平/垂直分辨率，显示深度</h6>
+<p>显示分辨率：显示器上能够显示出的像素点数目（横向和纵向）
+水平分辨率:  显示器水平方向(横向)…
+垂直分辨率：显示器垂直（纵向）…
+显示深度：显示器上每个像素点颜色的二进制位数 ！当显示器显示数字图像时应该显示深度大于或等于数字图像的深度，就可以反映使用的颜色</p>
+<h6 id="9传输表示表现存储媒体">9.传输/表示/表现/存储媒体</h6>
+<p>传输：物理介质-&gt;电缆光缆
+表示：数据交换的<strong>编码</strong>：图像。文本、声音
+表现：信息输出输入-&gt;键盘、鼠标、话筒、显示器、打印机、XX机
+存储：物理介质-&gt;硬盘、光盘</p>
+<h6 id="10矢量图位图">10.矢量图、位图</h6>
+<p>矢量图 图元是描述其的基本组成单位 处理侧重 绘制和创建
+位图 像素点来描述的图 占用储存空间较大 处理侧重 获取和复制 显示速度较快</p>
+<h6 id="11声音信号数字化--计算机处理模拟视频信号-过程中首先要进行">11.声音信号数字化 / 计算机处理模拟视频信号 过程中首先要进行</h6>
+<p>A/D转换（模数转换) -&gt;用二进制数字编码来表示声音</p>
+<h6 id="12当用户等待过长放弃下载显示图片影像时可以通过">12.当用户等待过长放弃下载/显示图片/影像时可以通过</h6>
+<p>1.流媒体 2.JPEG累进编码 3.GIF图像文件格式 来解决</p>
+<h6 id="13计算机音乐合成技术主要有">13.计算机音乐合成技术主要有</h6>
+<p>FM和Wave Table两种方式 其中后者音质更好</p>
+<h6 id="14以下编码方式中属于熵编码">14.以下编码方式中（）属于熵编码</h6>
+<p>哈夫曼编码</p>
+<h6 id="15cif-视频格式的图像分辨率为">15.CIF 视频格式的图像分辨率为</h6>
+<p>352X288</p>
+<h6 id="16mpeg-系列标准中-是多媒体内容描述接口标准">16.MPEG 系列标准中 （）是多媒体内容描述接口标准</h6>
+<p>MPEG-7</p>
+<h6 id="17rgb分辨率为256x512每种颜色用8b表示则该图像的数据量为b">17.RGB，分辨率为256X512，每种颜色用8b表示，则该图像的数据量为（）b</h6>
+<p>256X512 X8 X3 记住这个×3</p>
+<h6 id="18mpeg-系列标准中">18..MPEG 系列标准中</h6>
+<p>MPEG-1 用于VCD
+MPEG-2 用于DVD
+MPEG-4 针对音视频编码技术
+MPEG-7 不含音视频压缩编码技术，是多媒体内容描述接口标准
+MPEG-21 是多媒体应用框架标准</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">&copy; 2020 Example Site</section>
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="1.0.5">Stack</a></b> designed by
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>
