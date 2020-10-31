@@ -6,7 +6,26 @@
     <description>Recent content in Ruankaos on Example Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2020 01:05:36 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2020 23:07:48 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机网络概述</title>
+      <link>https://Poliki.github.io/ruankao/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</link>
+      <pubDate>Sat, 31 Oct 2020 23:07:48 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/ruankao/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</guid>
+      <description>一、计算机多级存储技术 层次化存储结构 1.Cache与主存的地址映射是由 硬件自动 完成的 2.Cache的描述 内容：是主存部分内容的拷贝 ，命中率：不随容量增大线性提高，位于主存和CPU之间 3.主存与Cache地址映射方式中，全相连方式 可以实现主存任意一块装入Cache中任意位置，只有装满才需要替换
+二、数据的表示 进制转换 1.其他转十进制 2.十进制转其他 原码，反码，补码，移码
+2.1 n位的二进制数可以用 补码 来表示 2n 个不同的有符号定点小数 补码有符号位，0是唯一
+2.2 CPU依据 指令周期的不同阶段 来区分在内存中以二进制存放的指令和数据
+2.3 n位 补码 含一个符号位 可以直接表示数据 -2n-1 ~ 2n-1-1
+2.4 2X 的补码是 90H X的真值是 90H 是十六进制 90 二进制是10010000 是负数，反码是10001111 二进制 B 八进制 O 十进制 D 十六进制 H
+三、校验码（海明码） 记住公式2的k次方≥m+k+1 m是多少位 代入k去求解
+四、流水线技术 1.提高了吞吐率，各部件的利用率，可同时执行多条指令 2.吞吐率是最长流水段操作时间的倒数 3.指令流水线性度量 中 最大吞吐率取决最慢一段；断流的话加速比会明显下降；效率最大化应该对流水线各级采用相同的运行时间
+五、计算机可靠性 1.串联 可靠性=R1×R2… 失效率=P1+P2…
+2.并联 可靠性=1-（1-R1）×（1-R2） 失效率极其复杂
+六、内存问题 地址总线：双向传输各个部件的数据信息 数据总线：指定原数据或目的数据在内存中的地址 控制总线：发出各种控制信号的传输线 指令周期过程中：首先要先将 程序计数器 的内容送到地址总线上</description>
+    </item>
+    
     <item>
       <title>多媒体的基本知识</title>
       <link>https://Poliki.github.io/ruankao/%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</link>
