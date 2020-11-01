@@ -6,7 +6,42 @@
     <description>Recent content in Ruankaos on Example Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2020 23:07:48 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 22:36:21 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法大题总结</title>
+      <link>https://Poliki.github.io/ruankao/%E7%AE%97%E6%B3%95%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sun, 01 Nov 2020 22:36:21 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/ruankao/%E7%AE%97%E6%B3%95%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <description>算法大题  一、每年考点 2009：动态规划（最短路径） / 回溯（01背包）
+2010：有向图的拓扑排序 / 堆排序（可能是分治）
+2011：分析排序 / 回溯法
+2012：贪心（最优调度）/ 贪心
+2013：贪心（最优调度） / 动态规划
+2014：分治 / 动态规划
+2015：回溯（n皇后) / 动态规划
+2016：动态规划 / 回溯（n皇后)
+2017：动态规划 / 回溯
+2018：动态规划 / 动态规划
+2019：回溯（n皇后)
+ 二、题型分析 1.第一问 填三个空的代码 （1）有可能是初始化 （2） （3）
+2.第二问 问用了什么算法，时间复杂度
+3.第三问 具体的数值代入题目求解
+ 三、分治法 1.递归 边界条件
+递归体
+2.思想 大问题分解成互相独立且与原问题相同的子问题
+3.解题步骤 (1) 分解
+(2) 求解
+(3) 合并
+4.典型应用 归并排序
+快速排序
+乘法矩阵
+大整数乘法
+汉诺塔 Hanoi
+问题描述：n个盘子在A处，盘子顺序排列，上面的最小，下面的最大，要把盘子从A搬到C处，可以在B初暂存，但不能出现大盘子压小盘子的情况
+void Hanoi (int n,char a,char b,char c) //n个盘子从a通过b移动到c { if(n &amp;gt; 1) { Hanno(n-1,a,b,c,d); // 前n-1个盘子 从a通过c移动到b move(n,a,c); // 第n个盘子，从a移动到c Hanoi(n-1,b,a,c); // 再前n-1个盘子 从b通过a移动到c } else { move(n,a,c); //递归出口 最后一个盘子 从a到c } } 斐波那契 Fibonacci</description>
+    </item>
+    
     <item>
       <title>计算机网络概述</title>
       <link>https://Poliki.github.io/ruankao/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0/</link>

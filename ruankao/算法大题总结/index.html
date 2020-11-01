@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='算法大题  一、每年考点 2009：动态规划（最短路径） / 回溯（01背包）
+2010：有向图的拓扑排序 / 堆排序（可能是分治）
+2011：分析排序 / 回溯法
+2012：贪心（最优调度）/ 贪心
+2013：贪心（最优调度） / 动态规划
+2014：分治 / 动态规划
+2015：回溯（n皇后) / 动态规划
+2016：动态规划 / 回溯（n皇后)
+2017：动态规划 / 回溯
+2018：动态规划 / 动态规划
+2019：回溯（n皇后)
+ 二、题型分析 1.第一问 填三个空的代码 （1）有可能是初始化 （2） （3）
+2.第二问 问用了什么算法，时间复杂度
+3.第三问 具体的数值代入题目求解
+ 三、分治法 1.递归 边界条件
+递归体
+2.思想 大问题分解成互相独立且与原问题相同的子问题
+3.解题步骤 (1) 分解
+(2) 求解
+(3) 合并
+4.典型应用 归并排序
+快速排序
+乘法矩阵
+大整数乘法
+汉诺塔 Hanoi
+问题描述：n个盘子在A处，盘子顺序排列，上面的最小，下面的最大，要把盘子从A搬到C处，可以在B初暂存，但不能出现大盘子压小盘子的情况
+void Hanoi (int n,char a,char b,char c) //n个盘子从a通过b移动到c { if(n &amp;gt; 1) { Hanno(n-1,a,b,c,d); // 前n-1个盘子 从a通过c移动到b move(n,a,c); // 第n个盘子，从a移动到c Hanoi(n-1,b,a,c); // 再前n-1个盘子 从b通过a移动到c } else { move(n,a,c); //递归出口 最后一个盘子 从a到c } } 斐波那契 Fibonacci'><title>算法大题总结</title>
+    
+    <link rel='canonical' href='https://Poliki.github.io/ruankao/%E7%AE%97%E6%B3%95%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='算法大题总结'>
+<meta property='og:description' content='算法大题  一、每年考点 2009：动态规划（最短路径） / 回溯（01背包）
+2010：有向图的拓扑排序 / 堆排序（可能是分治）
+2011：分析排序 / 回溯法
+2012：贪心（最优调度）/ 贪心
+2013：贪心（最优调度） / 动态规划
+2014：分治 / 动态规划
+2015：回溯（n皇后) / 动态规划
+2016：动态规划 / 回溯（n皇后)
+2017：动态规划 / 回溯
+2018：动态规划 / 动态规划
+2019：回溯（n皇后)
+ 二、题型分析 1.第一问 填三个空的代码 （1）有可能是初始化 （2） （3）
+2.第二问 问用了什么算法，时间复杂度
+3.第三问 具体的数值代入题目求解
+ 三、分治法 1.递归 边界条件
+递归体
+2.思想 大问题分解成互相独立且与原问题相同的子问题
+3.解题步骤 (1) 分解
+(2) 求解
+(3) 合并
+4.典型应用 归并排序
+快速排序
+乘法矩阵
+大整数乘法
+汉诺塔 Hanoi
+问题描述：n个盘子在A处，盘子顺序排列，上面的最小，下面的最大，要把盘子从A搬到C处，可以在B初暂存，但不能出现大盘子压小盘子的情况
+void Hanoi (int n,char a,char b,char c) //n个盘子从a通过b移动到c { if(n &amp;gt; 1) { Hanno(n-1,a,b,c,d); // 前n-1个盘子 从a通过c移动到b move(n,a,c); // 第n个盘子，从a移动到c Hanoi(n-1,b,a,c); // 再前n-1个盘子 从b通过a移动到c } else { move(n,a,c); //递归出口 最后一个盘子 从a到c } } 斐波那契 Fibonacci'>
+<meta property='og:url' content='https://Poliki.github.io/ruankao/%E7%AE%97%E6%B3%95%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Ruankao' /><meta property='article:published_time' content='2020-11-01T22:36:21&#43;08:00'/><meta property='article:modified_time' content='2020-11-01T22:36:21&#43;08:00'/>
+<meta name="twitter:title" content="算法大题总结">
+<meta name="twitter:description" content="算法大题  一、每年考点 2009：动态规划（最短路径） / 回溯（01背包）
+2010：有向图的拓扑排序 / 堆排序（可能是分治）
+2011：分析排序 / 回溯法
+2012：贪心（最优调度）/ 贪心
+2013：贪心（最优调度） / 动态规划
+2014：分治 / 动态规划
+2015：回溯（n皇后) / 动态规划
+2016：动态规划 / 回溯（n皇后)
+2017：动态规划 / 回溯
+2018：动态规划 / 动态规划
+2019：回溯（n皇后)
+ 二、题型分析 1.第一问 填三个空的代码 （1）有可能是初始化 （2） （3）
+2.第二问 问用了什么算法，时间复杂度
+3.第三问 具体的数值代入题目求解
+ 三、分治法 1.递归 边界条件
+递归体
+2.思想 大问题分解成互相独立且与原问题相同的子问题
+3.解题步骤 (1) 分解
+(2) 求解
+(3) 合并
+4.典型应用 归并排序
+快速排序
+乘法矩阵
+大整数乘法
+汉诺塔 Hanoi
+问题描述：n个盘子在A处，盘子顺序排列，上面的最小，下面的最大，要把盘子从A搬到C处，可以在B初暂存，但不能出现大盘子压小盘子的情况
+void Hanoi (int n,char a,char b,char c) //n个盘子从a通过b移动到c { if(n &amp;gt; 1) { Hanno(n-1,a,b,c,d); // 前n-1个盘子 从a通过c移动到b move(n,a,c); // 第n个盘子，从a移动到c Hanoi(n-1,b,a,c); // 再前n-1个盘子 从b通过a移动到c } else { move(n,a,c); //递归出口 最后一个盘子 从a到c } } 斐波那契 Fibonacci"></head><body class="article-page keep-sidebar">
+        <div class="container flex on-phone--column align-items--flex-start extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+
+                
+                    
+                    <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x300_resize_box_2.png" width="300"
+                        height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+
+                <span class="emoji">🍥</span>
+            </figure>
+        
+        <h1 class="site-name"><a href="https://Poliki.github.io/">Example Site</a></h1>
+        <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="https://Poliki.github.io/ruankao/%E7%AE%97%E6%B3%95%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/">算法大题总结</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Nov 01, 2020</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h4 id="算法大题">算法大题</h4>
+<hr>
+<h5 id="一每年考点">一、每年考点</h5>
+<p>2009：动态规划（最短路径）  / 回溯（01背包）</p>
+<p>2010：有向图的拓扑排序 / 堆排序（可能是分治）</p>
+<p>2011：分析排序 / 回溯法</p>
+<p>2012：贪心（最优调度）/ 贪心</p>
+<p>2013：贪心（最优调度） / 动态规划</p>
+<p>2014：分治 / 动态规划</p>
+<p>2015：回溯（n皇后) / 动态规划</p>
+<p>2016：动态规划 / 回溯（n皇后)</p>
+<p>2017：动态规划 / 回溯</p>
+<p>2018：动态规划 / 动态规划</p>
+<p>2019：回溯（n皇后)</p>
+<hr>
+<h5 id="二题型分析">二、题型分析</h5>
+<h6 id="1第一问">1.第一问</h6>
+<p>填三个空的代码
+（1）有可能是初始化
+（2）
+（3）</p>
+<h6 id="2第二问">2.第二问</h6>
+<p>问用了什么算法，时间复杂度</p>
+<h6 id="3第三问">3.第三问</h6>
+<p>具体的数值代入题目求解</p>
+<hr>
+<h5 id="三分治法">三、分治法</h5>
+<h6 id="1递归">1.递归</h6>
+<p>边界条件</p>
+<p>递归体</p>
+<h6 id="2思想">2.思想</h6>
+<p>大问题分解成互相独立且与原问题相同的子问题</p>
+<h6 id="3解题步骤">3.解题步骤</h6>
+<p>(1) 分解</p>
+<p>(2) 求解</p>
+<p>(3) 合并</p>
+<h6 id="4典型应用">4.典型应用</h6>
+<p><strong>归并排序</strong></p>
+<p><strong>快速排序</strong></p>
+<p><strong>乘法矩阵</strong></p>
+<p><strong>大整数乘法</strong></p>
+<p><strong>汉诺塔 Hanoi</strong></p>
+<p>问题描述：n个盘子在A处，盘子顺序排列，上面的最小，下面的最大，要把盘子从A搬到C处，可以在B初暂存，但不能出现大盘子压小盘子的情况</p>
+<pre><code>void Hanoi (int n,char a,char b,char c) //n个盘子从a通过b移动到c
+{
+  if(n &gt; 1) {
+    Hanno(n-1,a,b,c,d);  // 前n-1个盘子 从a通过c移动到b
+    move(n,a,c);         // 第n个盘子，从a移动到c
+    Hanoi(n-1,b,a,c);    // 再前n-1个盘子 从b通过a移动到c
+  } else {
+    move(n,a,c); //递归出口 最后一个盘子 从a到c
+  }
+}
+</code></pre><p><strong>斐波那契 Fibonacci</strong></p>
+<p>问题描述： 1 1 2 3 5 8 13 21…</p>
+<pre><code>F(0)=0，F(1)=1, F(n)=F(n - 1)+F(n - 2)（n ≥ 2，n ∈ N*）
+</code></pre><div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">F</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">)</span>  <span class="k">return</span> <span class="n">F</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="n">F</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p><strong>二分查找 Binary Search</strong></p>
+<p>问题描述：首先，假设表中元素是按升序排列，将表中间位置的关键字与查找关键字比较，如果两者相等，则查找成功；否则利用中间位置将表分成前、后两个子表，如果中间位置记录的关键字大于查找关键字，则进一步查找前一子表，否则进一步查找后一子表。重复以上过程，直到找到满足条件的，使查找成功，或直到子表不存在为止，此时查找不成功</p>
+<p>变量解释：</p>
+<p>L 数组名 ab数组下标志 x查找的值</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">Binary_Search</span><span class="p">(</span><span class="kr">int</span> <span class="o">*</span><span class="nx">L</span><span class="p">,</span><span class="kr">int</span> <span class="nx">a</span><span class="p">,</span><span class="kr">int</span> <span class="nx">b</span><span class="p">,</span><span class="kr">int</span> <span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">a</span><span class="o">&gt;</span><span class="nx">b</span><span class="p">)</span> <span class="k">return</span><span class="err">（</span><span class="o">-</span><span class="mi">1</span><span class="err">）；</span>
+  <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">m</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="o">+</span><span class="nx">b</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">==</span> <span class="nx">L</span><span class="p">[</span><span class="nx">m</span><span class="p">])</span> <span class="k">return</span> <span class="p">(</span><span class="nx">m</span><span class="p">);</span>
+    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">x</span><span class="o">&gt;</span><span class="nx">L</span><span class="p">[</span><span class="nx">m</span><span class="p">])</span> <span class="k">return</span> <span class="p">(</span><span class="nx">Binary_Search</span><span class="p">(</span><span class="nx">L</span><span class="p">,</span><span class="nx">m</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="nx">b</span><span class="p">,</span><span class="nx">x</span><span class="p">));</span>
+    <span class="k">else</span> <span class="k">return</span> <span class="p">(</span><span class="nx">Binary_Search</span><span class="p">(</span><span class="nx">L</span><span class="p">,</span><span class="nx">a</span><span class="p">,</span><span class="nx">m</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="nx">x</span><span class="p">));</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><h6 id="5考题">5.考题</h6>
+<p>2014-归并排序</p>
+<hr>
+<h5 id="四动态规划法">四、动态规划法</h5>
+<hr>
+<h5 id="五贪心法">五、贪心法</h5>
+<hr>
+<h5 id="六回溯法">六、回溯法</h5>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">&copy; 2020 Example Site</section>
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="1.0.5">Stack</a></b> designed by
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>
