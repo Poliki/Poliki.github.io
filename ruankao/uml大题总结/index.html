@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
     <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='数据流图大题 - DFD  一、每年考点  二、题型分析  三、数据流图基本概念    元素 说明 图元     数据流 由一组固定成分的数据组成，表示数据的流向。每个数据流通常有一个合适的名词，反应数据流的含义 -&amp;gt;   加工 加工描述了输入数据流到输出数据流之间的变换，也就是输入数据流做了什么处理后变成了输出数据流 圆形/圆角矩形   数据存储（文件） 用来表示暂时存储的数据，每个文件都有名字。流向文件的数据流表示写文件，流出的表示读文件 平行线/匡   外部实体 指存在软件系统外的人员或组织 矩形     四、数据字典    符号 含义 举例说明     = 被定义为    &#43; 与 x=a&#43;b , 表示x由a和b组成   [&amp;hellip;,&amp;hellip;] / [&amp;hellip;|&amp;hellip;] 或 x=[a,b],x=[a|b],表示x由a或由b组成   {&amp;hellip;} 重复 x={a},表示x由0个或多个a组成   (&amp;hellip;) 可选 x={a},表示a可在x中出现，也可不出现     五、数据平衡原则  父图和子图之间的平衡 子图内平衡   六、答题技巧   补充实体'><title>数据流图总结</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''><title>UML大题总结</title>
     
-    <link rel='canonical' href='https://Poliki.github.io/ruankao/%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE%E6%80%BB%E7%BB%93/'>
+    <link rel='canonical' href='https://Poliki.github.io/ruankao/uml%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='数据流图总结'>
-<meta property='og:description' content='数据流图大题 - DFD  一、每年考点  二、题型分析  三、数据流图基本概念    元素 说明 图元     数据流 由一组固定成分的数据组成，表示数据的流向。每个数据流通常有一个合适的名词，反应数据流的含义 -&amp;gt;   加工 加工描述了输入数据流到输出数据流之间的变换，也就是输入数据流做了什么处理后变成了输出数据流 圆形/圆角矩形   数据存储（文件） 用来表示暂时存储的数据，每个文件都有名字。流向文件的数据流表示写文件，流出的表示读文件 平行线/匡   外部实体 指存在软件系统外的人员或组织 矩形     四、数据字典    符号 含义 举例说明     = 被定义为    &#43; 与 x=a&#43;b , 表示x由a和b组成   [&amp;hellip;,&amp;hellip;] / [&amp;hellip;|&amp;hellip;] 或 x=[a,b],x=[a|b],表示x由a或由b组成   {&amp;hellip;} 重复 x={a},表示x由0个或多个a组成   (&amp;hellip;) 可选 x={a},表示a可在x中出现，也可不出现     五、数据平衡原则  父图和子图之间的平衡 子图内平衡   六、答题技巧   补充实体'>
-<meta property='og:url' content='https://Poliki.github.io/ruankao/%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE%E6%80%BB%E7%BB%93/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='UML大题总结'>
+<meta property='og:description' content=''>
+<meta property='og:url' content='https://Poliki.github.io/ruankao/uml%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Ruankao' /><meta property='article:published_time' content='2020-11-02T20:12:13&#43;08:00'/><meta property='article:modified_time' content='2020-11-02T20:12:13&#43;08:00'/>
-<meta name="twitter:title" content="数据流图总结">
-<meta name="twitter:description" content="数据流图大题 - DFD  一、每年考点  二、题型分析  三、数据流图基本概念    元素 说明 图元     数据流 由一组固定成分的数据组成，表示数据的流向。每个数据流通常有一个合适的名词，反应数据流的含义 -&amp;gt;   加工 加工描述了输入数据流到输出数据流之间的变换，也就是输入数据流做了什么处理后变成了输出数据流 圆形/圆角矩形   数据存储（文件） 用来表示暂时存储的数据，每个文件都有名字。流向文件的数据流表示写文件，流出的表示读文件 平行线/匡   外部实体 指存在软件系统外的人员或组织 矩形     四、数据字典    符号 含义 举例说明     = 被定义为    &#43; 与 x=a&#43;b , 表示x由a和b组成   [&amp;hellip;,&amp;hellip;] / [&amp;hellip;|&amp;hellip;] 或 x=[a,b],x=[a|b],表示x由a或由b组成   {&amp;hellip;} 重复 x={a},表示x由0个或多个a组成   (&amp;hellip;) 可选 x={a},表示a可在x中出现，也可不出现     五、数据平衡原则  父图和子图之间的平衡 子图内平衡   六、答题技巧   补充实体"></head><body class="article-page keep-sidebar">
+<meta property='og:type' content='article'><meta property='article:section' content='Ruankao' /><meta property='article:published_time' content='2020-11-03T18:44:51&#43;08:00'/><meta property='article:modified_time' content='2020-11-03T18:44:51&#43;08:00'/>
+<meta name="twitter:title" content="UML大题总结">
+<meta name="twitter:description" content=""></head><body class="article-page keep-sidebar">
         <div class="container flex on-phone--column align-items--flex-start extended ">
             <aside class="sidebar left-sidebar sticky">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
@@ -107,7 +107,7 @@
     
 
     <h2 class="article-title">
-        <a href="https://Poliki.github.io/ruankao/%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE%E6%80%BB%E7%BB%93/">数据流图总结</a>
+        <a href="https://Poliki.github.io/ruankao/uml%E5%A4%A7%E9%A2%98%E6%80%BB%E7%BB%93/">UML大题总结</a>
     </h2>
 
     <footer class="article-time">
@@ -119,122 +119,12 @@
 
 
 
-        <time class="article-time--published">Nov 02, 2020</time>
+        <time class="article-time--published">Nov 03, 2020</time>
     </footer></div>
 </header>
 
     <section class="article-content">
-    <h4 id="数据流图大题---dfd">数据流图大题 - DFD</h4>
-<hr>
-<h5 id="一每年考点">一、每年考点</h5>
-<hr>
-<h5 id="二题型分析">二、题型分析</h5>
-<hr>
-<h5 id="三数据流图基本概念">三、数据流图基本概念</h5>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">元素</th>
-<th style="text-align:center">说明</th>
-<th style="text-align:center">图元</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">数据流</td>
-<td style="text-align:center">由一组固定成分的数据组成，表示数据的流向。每个数据流通常有一个合适的名词，反应数据流的含义</td>
-<td style="text-align:center">-&gt;</td>
-</tr>
-<tr>
-<td style="text-align:center">加工</td>
-<td style="text-align:center">加工描述了输入数据流到输出数据流之间的变换，也就是输入数据流做了什么处理后变成了输出数据流</td>
-<td style="text-align:center">圆形/圆角矩形</td>
-</tr>
-<tr>
-<td style="text-align:center">数据存储（文件）</td>
-<td style="text-align:center">用来表示暂时存储的数据，每个文件都有名字。流向文件的数据流表示写文件，流出的表示读文件</td>
-<td style="text-align:center">平行线/匡</td>
-</tr>
-<tr>
-<td style="text-align:center">外部实体</td>
-<td style="text-align:center">指存在软件系统外的人员或组织</td>
-<td style="text-align:center">矩形</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h5 id="四数据字典">四、数据字典</h5>
-<table>
-<thead>
-<tr>
-<th>符号</th>
-<th>含义</th>
-<th>举例说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>=</td>
-<td>被定义为</td>
-<td></td>
-</tr>
-<tr>
-<td>+</td>
-<td>与</td>
-<td>x=a+b , 表示x由a和b组成</td>
-</tr>
-<tr>
-<td>[&hellip;,&hellip;] / [&hellip;|&hellip;]</td>
-<td>或</td>
-<td>x=[a,b],x=[a|b],表示x由a或由b组成</td>
-</tr>
-<tr>
-<td>{&hellip;}</td>
-<td>重复</td>
-<td>x={a},表示x由0个或多个a组成</td>
-</tr>
-<tr>
-<td>(&hellip;)</td>
-<td>可选</td>
-<td>x={a},表示a可在x中出现，也可不出现</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h5 id="五数据平衡原则">五、数据平衡原则</h5>
-<ul>
-<li>父图和子图之间的平衡</li>
-<li>子图内平衡</li>
-</ul>
-<hr>
-<h5 id="六答题技巧">六、答题技巧</h5>
-<ol>
-<li>
-<p>补充实体</p>
-<p>实体可能是：</p>
-<p>（1）人物角色：客户、管理员、主管、经理、老师、学生</p>
-<p>（2）组织机构：银行、供应商、募捐机构</p>
-<p>（3）外部系统：银行系统、工资系统、后台数据库（当要开发的中间件）</p>
-</li>
-<li>
-<p>补充存储</p>
-<p>存储的文字方面特征：“**文件”，“**表”,“**清单”</p>
-</li>
-<li>
-<p>补充数据流</p>
-<p>（1）数据平衡原则</p>
-<p>顶层图&amp;0层图对比，是否欠缺的数据；</p>
-<p>检查图中每个加工，是否存在只有入没有出/或相反，根据输出的数据无法产生对应的输入情况</p>
-<p>（2）按题目说明与图进行匹配</p>
-<p>说明中每一句话都能与图中有对应关系，</p>
-</li>
-<li>
-<p>补充加工名</p>
-<p>加工是处理数据流的，补充加工名要把设计的数据流，在说明中标识出来，再于数据流名称所在的句子中，找：“动词+名词”的结构，分析是否可以作为加工</p>
-<p>如：生成报告、发出通知、批改作业、记录分数；物流跟踪、用户管理</p>
-</li>
-</ol>
-
+    
 </section>
 
 
