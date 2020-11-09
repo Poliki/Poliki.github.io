@@ -6,7 +6,71 @@
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 02 Nov 2020 20:12:13 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 09 Nov 2020 23:24:18 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mock</title>
+        <link>https://Poliki.github.io/p/mock/</link>
+        <pubDate>Mon, 09 Nov 2020 23:24:18 +0800</pubDate>
+        
+        <guid>https://Poliki.github.io/p/mock/</guid>
+        <description>&lt;h3 id=&#34;mockjs-入门使用&#34;&gt;Mock.js 入门使用&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;参考文章：
+&lt;a href=&#34;https://www.cnblogs.com/soyxiaobi/p/9846057.html&#34;&gt;https://www.cnblogs.com/soyxiaobi/p/9846057.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000008839142&#34;&gt;https://segmentfault.com/a/1190000008839142&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;一安装使用初衷&#34;&gt;一、安装&amp;amp;使用初衷&lt;/h5&gt;
+&lt;h6 id=&#34;安装&#34;&gt;安装&lt;/h6&gt;
+&lt;p&gt;npm: &lt;code&gt;npm install mockjs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;引入:  &lt;code&gt;&amp;lt;script src=&amp;quot;http://mockjs.com/dist/mock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;略&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;二简单介绍&#34;&gt;二、简单介绍&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;Mock.js&lt;/code&gt; 因为两个重要的特性风靡前端:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数据类型丰富&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;拦截 Ajax 请求&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不需要修改既有代码，就可以拦截 Ajax 请求，返回模拟的响应数据。安全又便捷&lt;/p&gt;
+&lt;p&gt;文章会用到的API(也是Mock经常使用的API):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mock.mock(url, type, data)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数名&lt;/th&gt;
+&lt;th&gt;参数需求&lt;/th&gt;
+&lt;th&gt;参数描述&lt;/th&gt;
+&lt;th&gt;例子&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td&gt;可选: URL 字符串或 URL 正则类型&lt;/td&gt;
+&lt;td&gt;拦截请求的地址&lt;/td&gt;
+&lt;td&gt;/mock&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;type&lt;/td&gt;
+&lt;td&gt;可选&lt;/td&gt;
+&lt;td&gt;拦截Ajax&lt;/td&gt;
+&lt;td&gt;GET、POST&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;template&lt;/td&gt;
+&lt;td&gt;可选: 可以是对象或字符串&lt;/td&gt;
+&lt;td&gt;生成数据的模板&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;{&#39;data|1-10&#39;:[&#39;mock&#39;] }&lt;/code&gt;、&lt;code&gt;&#39;@EMAIL&#39;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
         <title>BindToTheDomain</title>
         <link>https://Poliki.github.io/p/bindtothedomain/</link>
         <pubDate>Thu, 29 Oct 2020 22:59:42 +0800</pubDate>

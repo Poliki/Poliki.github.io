@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Example Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 22:59:42 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 23:24:18 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mock</title>
+      <link>https://Poliki.github.io/p/mock/</link>
+      <pubDate>Mon, 09 Nov 2020 23:24:18 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/p/mock/</guid>
+      <description>Mock.js 入门使用  参考文章： https://www.cnblogs.com/soyxiaobi/p/9846057.html
+https://segmentfault.com/a/1190000008839142
+ 一、安装&amp;amp;使用初衷 安装 npm: npm install mockjs
+引入: &amp;lt;script src=&amp;quot;http://mockjs.com/dist/mock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+略
+ 二、简单介绍 Mock.js 因为两个重要的特性风靡前端:
+ 数据类型丰富  支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。
+ 拦截 Ajax 请求  不需要修改既有代码，就可以拦截 Ajax 请求，返回模拟的响应数据。安全又便捷
+文章会用到的API(也是Mock经常使用的API):
+ Mock.mock(url, type, data)     参数名 参数需求 参数描述 例子     url 可选: URL 字符串或 URL 正则类型 拦截请求的地址 /mock   type 可选 拦截Ajax GET、POST   template 可选: 可以是对象或字符串 生成数据的模板 {&#39;data|1-10&#39;:[&#39;mock&#39;] }、&#39;@EMAIL&#39;    </description>
+    </item>
+    
     <item>
       <title>BindToTheDomain</title>
       <link>https://Poliki.github.io/p/bindtothedomain/</link>
