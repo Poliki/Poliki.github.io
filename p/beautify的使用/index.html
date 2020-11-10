@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Beautify 插件使用  参考文章： https://zhuanlan.zhihu.com/p/131274632
+https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md
+ 一、安装&amp;amp;使用初衷 使用初衷 ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点
+安装 商店搜索 Beautify 最高下载量那个就是了
+ 二、简单介绍  Beautify是格式化代码的插件 可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行） 在文件夹根目录下创建 .jsbeautifyrc 文件配置后可用    三、配置规则 适合所有文件类型的规则    设置 适用 描述     indent_size 所有 [int]缩进大小，默认：4   indent_char 所有 [String] 缩进字符，默认：&amp;quot; &amp;quot;   eol 所有 [String] 行结束符，默认：&amp;quot;\n&amp;quot;   end_with_newline 所有 [Bool] 确保最后一行是新行，默认：false   indent_with_tabs 所有 [Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false   preserve_newlines 所有 [Bool] 留原有的多余空行，默认：true    { &amp;#34;indent_char&amp;#34;: &amp;#34; &amp;#34;, &amp;#34;indent_size&amp;#34;: 0, &amp;#34;eol&amp;#34;: &amp;#34;\n&amp;#34;, &amp;#34;end_with_newline&amp;#34;: false, &amp;#34;indent_with_tabs&amp;#34;: false, &amp;#34;preserve_newlines&amp;#34;: true }  运行方法 Shift&#43;Alt&#43;F （可自定义）  '><title>Beautify的使用</title>
+    
+    <link rel='canonical' href='https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Beautify的使用'>
+<meta property='og:description' content='Beautify 插件使用  参考文章： https://zhuanlan.zhihu.com/p/131274632
+https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md
+ 一、安装&amp;amp;使用初衷 使用初衷 ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点
+安装 商店搜索 Beautify 最高下载量那个就是了
+ 二、简单介绍  Beautify是格式化代码的插件 可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行） 在文件夹根目录下创建 .jsbeautifyrc 文件配置后可用    三、配置规则 适合所有文件类型的规则    设置 适用 描述     indent_size 所有 [int]缩进大小，默认：4   indent_char 所有 [String] 缩进字符，默认：&amp;quot; &amp;quot;   eol 所有 [String] 行结束符，默认：&amp;quot;\n&amp;quot;   end_with_newline 所有 [Bool] 确保最后一行是新行，默认：false   indent_with_tabs 所有 [Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false   preserve_newlines 所有 [Bool] 留原有的多余空行，默认：true    { &amp;#34;indent_char&amp;#34;: &amp;#34; &amp;#34;, &amp;#34;indent_size&amp;#34;: 0, &amp;#34;eol&amp;#34;: &amp;#34;\n&amp;#34;, &amp;#34;end_with_newline&amp;#34;: false, &amp;#34;indent_with_tabs&amp;#34;: false, &amp;#34;preserve_newlines&amp;#34;: true }  运行方法 Shift&#43;Alt&#43;F （可自定义）  '>
+<meta property='og:url' content='https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/'>
+<meta property='og:site_name' content='Example Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2020-11-10T23:45:30&#43;08:00'/><meta property='article:modified_time' content='2020-11-10T23:45:30&#43;08:00'/>
+<meta name="twitter:title" content="Beautify的使用">
+<meta name="twitter:description" content="Beautify 插件使用  参考文章： https://zhuanlan.zhihu.com/p/131274632
+https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md
+ 一、安装&amp;amp;使用初衷 使用初衷 ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点
+安装 商店搜索 Beautify 最高下载量那个就是了
+ 二、简单介绍  Beautify是格式化代码的插件 可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行） 在文件夹根目录下创建 .jsbeautifyrc 文件配置后可用    三、配置规则 适合所有文件类型的规则    设置 适用 描述     indent_size 所有 [int]缩进大小，默认：4   indent_char 所有 [String] 缩进字符，默认：&amp;quot; &amp;quot;   eol 所有 [String] 行结束符，默认：&amp;quot;\n&amp;quot;   end_with_newline 所有 [Bool] 确保最后一行是新行，默认：false   indent_with_tabs 所有 [Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false   preserve_newlines 所有 [Bool] 留原有的多余空行，默认：true    { &amp;#34;indent_char&amp;#34;: &amp;#34; &amp;#34;, &amp;#34;indent_size&amp;#34;: 0, &amp;#34;eol&amp;#34;: &amp;#34;\n&amp;#34;, &amp;#34;end_with_newline&amp;#34;: false, &amp;#34;indent_with_tabs&amp;#34;: false, &amp;#34;preserve_newlines&amp;#34;: true }  运行方法 Shift&#43;Alt&#43;F （可自定义）  "></head><body class="">
+        <div class="container flex on-phone--column align-items--flex-start extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+
+                
+                    
+                    <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x300_resize_box_2.png" width="300"
+                        height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+
+                <span class="emoji">🍥</span>
+            </figure>
+        
+        <h1 class="site-name"><a href="https://Poliki.github.io/">Example Site</a></h1>
+        <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='https://Poliki.github.io/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+    </ol>
+</aside>
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://Poliki.github.io/" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/">Beautify的使用</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Nov 10, 2020</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h3 id="beautify-插件使用">Beautify 插件使用</h3>
+<hr>
+<p>参考文章：
+<a href="https://zhuanlan.zhihu.com/p/131274632">https://zhuanlan.zhihu.com/p/131274632</a></p>
+<p><a href="https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md">https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md</a></p>
+<hr>
+<h5 id="一安装使用初衷">一、安装&amp;使用初衷</h5>
+<h6 id="使用初衷">使用初衷</h6>
+<p>ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点</p>
+<h6 id="安装">安装</h6>
+<p>商店搜索 Beautify 最高下载量那个就是了</p>
+<hr>
+<h5 id="二简单介绍">二、简单介绍</h5>
+<ul>
+<li>Beautify是格式化代码的插件</li>
+<li>可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行）</li>
+<li>在文件夹根目录下创建 <strong>.jsbeautifyrc</strong> 文件配置后可用</li>
+<li></li>
+</ul>
+<hr>
+<h5 id="三配置规则">三、配置规则</h5>
+<h6 id="适合所有文件类型的规则">适合所有文件类型的规则</h6>
+<table>
+<thead>
+<tr>
+<th>设置</th>
+<th>适用</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>indent_size</td>
+<td>所有</td>
+<td>[int]缩进大小，默认：4</td>
+</tr>
+<tr>
+<td>indent_char</td>
+<td>所有</td>
+<td>[String] 缩进字符，默认：&quot; &quot;</td>
+</tr>
+<tr>
+<td>eol</td>
+<td>所有</td>
+<td>[String] 行结束符，默认：&quot;\n&quot;</td>
+</tr>
+<tr>
+<td>end_with_newline</td>
+<td>所有</td>
+<td>[Bool] 确保最后一行是新行，默认：false</td>
+</tr>
+<tr>
+<td>indent_with_tabs</td>
+<td>所有</td>
+<td>[Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false</td>
+</tr>
+<tr>
+<td>preserve_newlines</td>
+<td>所有</td>
+<td>[Bool] 留原有的多余空行，默认：true</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+  <span class="s2">&#34;indent_char&#34;</span><span class="o">:</span> <span class="s2">&#34; &#34;</span><span class="p">,</span>
+  <span class="s2">&#34;indent_size&#34;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="s2">&#34;eol&#34;</span><span class="o">:</span> <span class="s2">&#34;\n&#34;</span><span class="p">,</span>
+  <span class="s2">&#34;end_with_newline&#34;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="s2">&#34;indent_with_tabs&#34;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="s2">&#34;preserve_newlines&#34;</span><span class="o">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div><ul>
+<li><strong>运行方法 Shift+Alt+F （可自定义）</strong></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">&copy; 2020 Example Site</section>
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="1.0.5">Stack</a></b> designed by
+        <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<link rel="stylesheet" href="/css/highlight/light.min.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="/css/highlight/dark.min.css" media="(prefers-color-scheme: dark)">
+
+    </body>
+</html>

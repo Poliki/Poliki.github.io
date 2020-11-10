@@ -6,7 +6,89 @@
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 09 Nov 2020 23:24:18 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Nov 2020 23:45:30 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Beautify的使用</title>
+        <link>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Tue, 10 Nov 2020 23:45:30 +0800</pubDate>
+        
+        <guid>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;h3 id=&#34;beautify-插件使用&#34;&gt;Beautify 插件使用&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;参考文章：
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/131274632&#34;&gt;https://zhuanlan.zhihu.com/p/131274632&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md&#34;&gt;https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;一安装使用初衷&#34;&gt;一、安装&amp;amp;使用初衷&lt;/h5&gt;
+&lt;h6 id=&#34;使用初衷&#34;&gt;使用初衷&lt;/h6&gt;
+&lt;p&gt;ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点&lt;/p&gt;
+&lt;h6 id=&#34;安装&#34;&gt;安装&lt;/h6&gt;
+&lt;p&gt;商店搜索 Beautify 最高下载量那个就是了&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;二简单介绍&#34;&gt;二、简单介绍&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Beautify是格式化代码的插件&lt;/li&gt;
+&lt;li&gt;可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行）&lt;/li&gt;
+&lt;li&gt;在文件夹根目录下创建 &lt;strong&gt;.jsbeautifyrc&lt;/strong&gt; 文件配置后可用&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;三配置规则&#34;&gt;三、配置规则&lt;/h5&gt;
+&lt;h6 id=&#34;适合所有文件类型的规则&#34;&gt;适合所有文件类型的规则&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;设置&lt;/th&gt;
+&lt;th&gt;适用&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;indent_size&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[int]缩进大小，默认：4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;indent_char&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[String] 缩进字符，默认：&amp;quot; &amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;eol&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[String] 行结束符，默认：&amp;quot;\n&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;end_with_newline&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[Bool] 确保最后一行是新行，默认：false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;indent_with_tabs&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;preserve_newlines&lt;/td&gt;
+&lt;td&gt;所有&lt;/td&gt;
+&lt;td&gt;[Bool] 留原有的多余空行，默认：true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_char&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_size&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;eol&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;end_with_newline&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_with_tabs&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;s2&#34;&gt;&amp;#34;preserve_newlines&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;运行方法 Shift+Alt+F （可自定义）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Mock</title>
         <link>https://Poliki.github.io/p/mock/</link>
         <pubDate>Mon, 09 Nov 2020 23:24:18 +0800</pubDate>
