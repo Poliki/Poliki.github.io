@@ -1,60 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Example Site</title>
+    <title>Posts on Poliki&#39;s Site</title>
     <link>https://Poliki.github.io/post/</link>
-    <description>Recent content in Posts on Example Site</description>
+    <description>Recent content in Posts on Poliki&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2020 23:45:30 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Dec 2020 02:10:04 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beautify的使用</title>
-      <link>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
-      <pubDate>Tue, 10 Nov 2020 23:45:30 +0800</pubDate>
+      <title>Qb</title>
+      <link>https://Poliki.github.io/p/qb/</link>
+      <pubDate>Thu, 10 Dec 2020 02:10:04 +0800</pubDate>
       
-      <guid>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-      <description>Beautify 插件使用  参考文章： https://zhuanlan.zhihu.com/p/131274632
-https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md
- 一、安装&amp;amp;使用初衷 使用初衷 ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点
-安装 商店搜索 Beautify 最高下载量那个就是了
- 二、简单介绍  Beautify是格式化代码的插件 可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行） 在文件夹根目录下创建 .jsbeautifyrc 文件配置后可用    三、配置规则 适合所有文件类型的规则    设置 适用 描述     indent_size 所有 [int]缩进大小，默认：4   indent_char 所有 [String] 缩进字符，默认：&amp;quot; &amp;quot;   eol 所有 [String] 行结束符，默认：&amp;quot;\n&amp;quot;   end_with_newline 所有 [Bool] 确保最后一行是新行，默认：false   indent_with_tabs 所有 [Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false   preserve_newlines 所有 [Bool] 留原有的多余空行，默认：true    { &amp;#34;indent_char&amp;#34;: &amp;#34; &amp;#34;, &amp;#34;indent_size&amp;#34;: 0, &amp;#34;eol&amp;#34;: &amp;#34;\n&amp;#34;, &amp;#34;end_with_newline&amp;#34;: false, &amp;#34;indent_with_tabs&amp;#34;: false, &amp;#34;preserve_newlines&amp;#34;: true }  运行方法 Shift+Alt+F （可自定义）  </description>
+      <guid>https://Poliki.github.io/p/qb/</guid>
+      <description>每日更新Hugo 一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下
+参考博文 地址： https://www.icode9.com/content-4-642752.html
+每次更新就来复制一下
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot; 5.（非必须）
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push git@github.com:Poliki/Poliki.github.io.git // 上面是ssh地址，也可以换成https的地址 https://github.com/Poliki/Poliki.github.io.git </description>
     </item>
     
     <item>
-      <title>Mock</title>
-      <link>https://Poliki.github.io/p/mock/</link>
-      <pubDate>Mon, 09 Nov 2020 23:24:18 +0800</pubDate>
+      <title>新建一个hugo站点</title>
+      <link>https://Poliki.github.io/p/newhugo/</link>
+      <pubDate>Thu, 10 Dec 2020 01:51:08 +0800</pubDate>
       
-      <guid>https://Poliki.github.io/p/mock/</guid>
-      <description>Mock.js 入门使用  参考文章： https://www.cnblogs.com/soyxiaobi/p/9846057.html
-https://segmentfault.com/a/1190000008839142
- 一、安装&amp;amp;使用初衷 安装 npm: npm install mockjs
-引入: &amp;lt;script src=&amp;quot;http://mockjs.com/dist/mock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-略
- 二、简单介绍 Mock.js 因为两个重要的特性风靡前端:
- 数据类型丰富  支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。
- 拦截 Ajax 请求  不需要修改既有代码，就可以拦截 Ajax 请求，返回模拟的响应数据。安全又便捷
-文章会用到的API(也是Mock经常使用的API):
- Mock.mock(url, type, data)     参数名 参数需求 参数描述 例子     url 可选: URL 字符串或 URL 正则类型 拦截请求的地址 /mock   type 可选 拦截Ajax GET、POST   template 可选: 可以是对象或字符串 生成数据的模板 {&#39;data|1-10&#39;:[&#39;mock&#39;] }、&#39;@EMAIL&#39;    </description>
-    </item>
-    
-    <item>
-      <title>BindToTheDomain</title>
-      <link>https://Poliki.github.io/p/bindtothedomain/</link>
-      <pubDate>Thu, 29 Oct 2020 22:59:42 +0800</pubDate>
-      
-      <guid>https://Poliki.github.io/p/bindtothedomain/</guid>
-      <description>博客绑定自定义的域名
-阿里云/其他云搞域名 1.实名制 2.购买域名  去别的网站购买免费的SSL证书 1.如又拍云 https://www.upyun.com/
-2.实名，填信息等 3.获得SSL证书  将新的域名链接到GIthub的域名上 1.打开github对应的仓库 2.在settings中找到custom domain 3.输入新域名 4.在github pages下显示绿色的√就可以 5.访问新域名就可以看到网页了 </description>
-    </item>
-    
-    <item>
-      <title>NewStartHugo</title>
-      <link>https://Poliki.github.io/p/newstarthugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://Poliki.github.io/p/newstarthugo/</guid>
+      <guid>https://Poliki.github.io/p/newhugo/</guid>
       <description>再装Hugo 主要是重装后配的hugo都么有了，这次重新看以前的笔记和视频来配置一次
 建博初衷 无限听说&amp;quot;程序员拥有自己的技术博客是一件非常重要的事情&amp;quot;
 初识Hugo 官方主页： https://gohugo.io
@@ -72,6 +46,16 @@ D:\hugo_0.76.5 3.查看版本 CMD下输入hugo version就能查看到版本信�
 $ hugo new site 站点名称 然后就会生成这个”站点名称“文件夹了
 3.设置主题 去主题库的网站（上文有）中找到你喜欢的，下载然后解压到站点名称/themes 文件夹中，有的会让你直接git下载，不过推荐去Github链接那里下快一点，详细的可以看每个主题下的说明文档
 然后点进站点文件再 git bash here 执行</description>
+    </item>
+    
+    <item>
+      <title>Start</title>
+      <link>https://Poliki.github.io/p/start/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/start/</guid>
+      <description>MD写法 The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur?</description>
     </item>
     
   </channel>

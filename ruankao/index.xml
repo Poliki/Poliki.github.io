@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruankaos on Example Site</title>
+    <title>Ruankaos on Poliki&#39;s Site</title>
     <link>https://Poliki.github.io/ruankao/</link>
-    <description>Recent content in Ruankaos on Example Site</description>
+    <description>Recent content in Ruankaos on Poliki&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 02 Nov 2020 20:12:13 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/ruankao/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据流图总结</title>

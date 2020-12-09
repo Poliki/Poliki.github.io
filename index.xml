@@ -1,189 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Example Site</title>
+        <title>Poliki&#39;s Site</title>
         <link>https://Poliki.github.io/</link>
-        <description>Recent content on Example Site</description>
+        <description>Recent content on Poliki&#39;s Site</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Wed, 09 Dec 2020 00:12:13 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Beautify的使用</title>
-        <link>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
-        <pubDate>Tue, 10 Nov 2020 23:45:30 +0800</pubDate>
+        <language>zh-cn</language>
+        <lastBuildDate>Thu, 10 Dec 2020 02:10:04 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Qb</title>
+        <link>https://Poliki.github.io/p/qb/</link>
+        <pubDate>Thu, 10 Dec 2020 02:10:04 +0800</pubDate>
         
-        <guid>https://Poliki.github.io/p/beautify%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;h3 id=&#34;beautify-插件使用&#34;&gt;Beautify 插件使用&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;参考文章：
-&lt;a href=&#34;https://zhuanlan.zhihu.com/p/131274632&#34;&gt;https://zhuanlan.zhihu.com/p/131274632&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md&#34;&gt;https://github.com/HookyQR/VSCodeBeautify/blob/master/Settings.md&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;一安装使用初衷&#34;&gt;一、安装&amp;amp;使用初衷&lt;/h5&gt;
-&lt;h6 id=&#34;使用初衷&#34;&gt;使用初衷&lt;/h6&gt;
-&lt;p&gt;ESLint使我心态爆炸，寻求代码规范和人性化操作的平衡点&lt;/p&gt;
-&lt;h6 id=&#34;安装&#34;&gt;安装&lt;/h6&gt;
-&lt;p&gt;商店搜索 Beautify 最高下载量那个就是了&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;二简单介绍&#34;&gt;二、简单介绍&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Beautify是格式化代码的插件&lt;/li&gt;
-&lt;li&gt;可格式化 JS、JSON、CSS、Sass、HTML（其他类型的文件不行）&lt;/li&gt;
-&lt;li&gt;在文件夹根目录下创建 &lt;strong&gt;.jsbeautifyrc&lt;/strong&gt; 文件配置后可用&lt;/li&gt;
+        <guid>https://Poliki.github.io/p/qb/</guid>
+        <description>&lt;h4 id=&#34;每日更新hugo&#34;&gt;每日更新Hugo&lt;/h4&gt;
+&lt;p&gt;一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下&lt;/p&gt;
+&lt;h5 id=&#34;参考博文&#34;&gt;参考博文&lt;/h5&gt;
+&lt;h6 id=&#34;地址&#34;&gt;地址：&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.icode9.com/content-4-642752.html&#34;&gt;https://www.icode9.com/content-4-642752.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;每次更新就来复制一下&lt;/p&gt;
+&lt;p&gt;1.新建一个.md&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new 文件夹/文件名.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2.更新到public文件夹中&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3.常规操作 cd进public文件夹&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git add .
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;三配置规则&#34;&gt;三、配置规则&lt;/h5&gt;
-&lt;h6 id=&#34;适合所有文件类型的规则&#34;&gt;适合所有文件类型的规则&lt;/h6&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;设置&lt;/th&gt;
-&lt;th&gt;适用&lt;/th&gt;
-&lt;th&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;indent_size&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[int]缩进大小，默认：4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;indent_char&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[String] 缩进字符，默认：&amp;quot; &amp;quot;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;eol&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[String] 行结束符，默认：&amp;quot;\n&amp;quot;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;end_with_newline&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[Bool] 确保最后一行是新行，默认：false&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;indent_with_tabs&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[Bool] 用Tab缩进，会覆盖 indent_size 和 indent_char，默认：false&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;preserve_newlines&lt;/td&gt;
-&lt;td&gt;所有&lt;/td&gt;
-&lt;td&gt;[Bool] 留原有的多余空行，默认：true&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_char&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_size&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;eol&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;end_with_newline&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;indent_with_tabs&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-  &lt;span class=&#34;s2&#34;&gt;&amp;#34;preserve_newlines&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;运行方法 Shift+Alt+F （可自定义）&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;$ git commit -m &amp;quot;这里是描述信息&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5.（非必须）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git remote add origin https://github.com/Polik/Poliki.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;$ git push 
+git@github.com:Poliki/Poliki.github.io.git
+
+// 上面是ssh地址，也可以换成https的地址
+https://github.com/Poliki/Poliki.github.io.git
+&lt;/code&gt;&lt;/pre&gt;</description>
         </item>
         <item>
-        <title>Mock</title>
-        <link>https://Poliki.github.io/p/mock/</link>
-        <pubDate>Mon, 09 Nov 2020 23:24:18 +0800</pubDate>
+        <title>新建一个hugo站点</title>
+        <link>https://Poliki.github.io/p/newhugo/</link>
+        <pubDate>Thu, 10 Dec 2020 01:51:08 +0800</pubDate>
         
-        <guid>https://Poliki.github.io/p/mock/</guid>
-        <description>&lt;h3 id=&#34;mockjs-入门使用&#34;&gt;Mock.js 入门使用&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;参考文章：
-&lt;a href=&#34;https://www.cnblogs.com/soyxiaobi/p/9846057.html&#34;&gt;https://www.cnblogs.com/soyxiaobi/p/9846057.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://segmentfault.com/a/1190000008839142&#34;&gt;https://segmentfault.com/a/1190000008839142&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;一安装使用初衷&#34;&gt;一、安装&amp;amp;使用初衷&lt;/h5&gt;
-&lt;h6 id=&#34;安装&#34;&gt;安装&lt;/h6&gt;
-&lt;p&gt;npm: &lt;code&gt;npm install mockjs&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;引入:  &lt;code&gt;&amp;lt;script src=&amp;quot;http://mockjs.com/dist/mock.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;略&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;二简单介绍&#34;&gt;二、简单介绍&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;Mock.js&lt;/code&gt; 因为两个重要的特性风靡前端:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;数据类型丰富&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;拦截 Ajax 请求&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不需要修改既有代码，就可以拦截 Ajax 请求，返回模拟的响应数据。安全又便捷&lt;/p&gt;
-&lt;p&gt;文章会用到的API(也是Mock经常使用的API):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mock.mock(url, type, data)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;参数名&lt;/th&gt;
-&lt;th&gt;参数需求&lt;/th&gt;
-&lt;th&gt;参数描述&lt;/th&gt;
-&lt;th&gt;例子&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;url&lt;/td&gt;
-&lt;td&gt;可选: URL 字符串或 URL 正则类型&lt;/td&gt;
-&lt;td&gt;拦截请求的地址&lt;/td&gt;
-&lt;td&gt;/mock&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;type&lt;/td&gt;
-&lt;td&gt;可选&lt;/td&gt;
-&lt;td&gt;拦截Ajax&lt;/td&gt;
-&lt;td&gt;GET、POST&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;template&lt;/td&gt;
-&lt;td&gt;可选: 可以是对象或字符串&lt;/td&gt;
-&lt;td&gt;生成数据的模板&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;{&#39;data|1-10&#39;:[&#39;mock&#39;] }&lt;/code&gt;、&lt;code&gt;&#39;@EMAIL&#39;&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>BindToTheDomain</title>
-        <link>https://Poliki.github.io/p/bindtothedomain/</link>
-        <pubDate>Thu, 29 Oct 2020 22:59:42 +0800</pubDate>
-        
-        <guid>https://Poliki.github.io/p/bindtothedomain/</guid>
-        <description>&lt;p&gt;博客绑定自定义的域名&lt;/p&gt;
-&lt;h5 id=&#34;阿里云其他云搞域名&#34;&gt;阿里云/其他云搞域名&lt;/h5&gt;
-&lt;h6 id=&#34;1实名制&#34;&gt;1.实名制&lt;/h6&gt;
-&lt;h6 id=&#34;2购买域名&#34;&gt;2.购买域名&lt;/h6&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;去别的网站购买免费的ssl证书&#34;&gt;去别的网站购买免费的SSL证书&lt;/h5&gt;
-&lt;h6 id=&#34;1如又拍云&#34;&gt;1.如又拍云&lt;/h6&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.upyun.com/&#34;&gt;https://www.upyun.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h6 id=&#34;2实名填信息等&#34;&gt;2.实名，填信息等&lt;/h6&gt;
-&lt;h6 id=&#34;3获得ssl证书&#34;&gt;3.获得SSL证书&lt;/h6&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;将新的域名链接到github的域名上&#34;&gt;将新的域名链接到GIthub的域名上&lt;/h5&gt;
-&lt;h6 id=&#34;1打开github对应的仓库&#34;&gt;1.打开github对应的仓库&lt;/h6&gt;
-&lt;h6 id=&#34;2在settings中找到custom-domain&#34;&gt;2.在settings中找到custom domain&lt;/h6&gt;
-&lt;h6 id=&#34;3输入新域名&#34;&gt;3.输入新域名&lt;/h6&gt;
-&lt;h6 id=&#34;4在github-pages下显示绿色的就可以&#34;&gt;4.在github pages下显示绿色的√就可以&lt;/h6&gt;
-&lt;h6 id=&#34;5访问新域名就可以看到网页了&#34;&gt;5.访问新域名就可以看到网页了&lt;/h6&gt;
-</description>
-        </item>
-        <item>
-        <title>NewStartHugo</title>
-        <link>https://Poliki.github.io/p/newstarthugo/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://Poliki.github.io/p/newstarthugo/</guid>
-        <description>&lt;h4 id=&#34;再装hugo&#34;&gt;再装Hugo&lt;/h4&gt;
+        <guid>https://Poliki.github.io/p/newhugo/</guid>
+        <description>&lt;img src="https://Poliki.github.io/p/newhugo/cover.jpg" alt="Featured image of post 新建一个hugo站点" /&gt;&lt;h4 id=&#34;再装hugo&#34;&gt;再装Hugo&lt;/h4&gt;
 &lt;p&gt;主要是重装后配的hugo都么有了，这次重新看以前的笔记和视频来配置一次&lt;/p&gt;
 &lt;h5 id=&#34;建博初衷&#34;&gt;建博初衷&lt;/h5&gt;
 &lt;p&gt;无限听说&amp;quot;&lt;strong&gt;程序员拥有自己的技术博客是一件非常重要的事情&lt;/strong&gt;&amp;quot;&lt;/p&gt;
@@ -248,12 +111,163 @@ $ git commit -m &amp;quot;这里是描述信息&amp;quot;  //提交
 $ git config --global user.email &amp;quot;you@example.com&amp;quot;
 $ git config --global user.name &amp;quot;Your Name&amp;quot;
 如果有就没事了
-$ git remote add origin https://github.com/Polik/Poliki.github.io.git
-//关联 按格式改地址
+
+而且不用再关联
+/* $ git remote add origin https://github.com/Poliki/Poliki.github.io.git*/
+
 $ git push https://github.com/Poliki/Poliki.github.io master
 //推送上去 master是Github以前的默认分支，现在叫main了，问题不大改一下就好
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后就可以访问一下&lt;/p&gt;
 &lt;p&gt;你的昵称.github.io.git检验成果了&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Start</title>
+        <link>https://Poliki.github.io/p/start/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://Poliki.github.io/p/start/</guid>
+        <description>&lt;img src="https://Poliki.github.io/p/start/cover.jpg" alt="Featured image of post Start" /&gt;&lt;h2 id=&#34;md写法&#34;&gt;MD写法&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— &lt;!-- raw HTML omitted --&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;lang&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Example HTML5 Document&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements--abbr-sub-sup-kbd-mark&#34;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;/h2&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;支持Emoji写法，后续研究&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
         </item>
         
