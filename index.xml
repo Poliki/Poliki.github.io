@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Poliki&#39;s Site</title>
-        <link>https://Poliki.github.io/</link>
+        <link>https://example.com/</link>
         <description>Recent content on Poliki&#39;s Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 10 Dec 2020 22:15:14 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 10 Dec 2020 22:15:14 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MongoDB基础</title>
-        <link>https://Poliki.github.io/p/mongodb%E5%9F%BA%E7%A1%80/</link>
+        <link>https://example.com/p/mongodb%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Thu, 10 Dec 2020 22:15:14 +0800</pubDate>
         
-        <guid>https://Poliki.github.io/p/mongodb%E5%9F%BA%E7%A1%80/</guid>
+        <guid>https://example.com/p/mongodb%E5%9F%BA%E7%A1%80/</guid>
         <description>&lt;h4 id=&#34;mongodb&#34;&gt;MongoDB&lt;/h4&gt;
 &lt;h5 id=&#34;一简介&#34;&gt;一、简介&lt;/h5&gt;
 &lt;p&gt;MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。&lt;/p&gt;
@@ -196,65 +196,11 @@
         </item>
         <item>
         <title>域名绑定Github仓库</title>
-        <link>https://Poliki.github.io/p/www/</link>
+        <link>https://example.com/p/www/</link>
         <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://Poliki.github.io/p/www/</guid>
-        <description>&lt;img src="https://Poliki.github.io/cover.jpg" alt="Featured image of post 域名绑定Github仓库" /&gt;&lt;h4 id=&#34;博客绑定自定义的域名&#34;&gt;博客绑定自定义的域名&lt;/h4&gt;
-&lt;h5 id=&#34;阿里云其他云搞域名&#34;&gt;阿里云/其他云搞域名&lt;/h5&gt;
-&lt;h6 id=&#34;1实名制&#34;&gt;1.实名制&lt;/h6&gt;
-&lt;h6 id=&#34;2购买域名并备案&#34;&gt;2.购买域名,并备案&lt;/h6&gt;
-&lt;h5 id=&#34;heading&#34;&gt;&lt;/h5&gt;
-&lt;h6 id=&#34;3获得ssl证书&#34;&gt;3.获得SSL证书&lt;/h6&gt;
-&lt;p&gt;在原站点可以选择免费的证书&lt;/p&gt;
-&lt;p&gt;用了SSL证书才能在服务器上转发&lt;/p&gt;
-&lt;hr&gt;
-&lt;h5 id=&#34;将新的域名链接到github的&#34;&gt;将新的域名链接到GIthub的&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;第一种做法：&lt;/strong&gt;&lt;/p&gt;
-&lt;h6 id=&#34;1打开github对应的仓库&#34;&gt;1.打开github对应的仓库&lt;/h6&gt;
-&lt;h6 id=&#34;2在settings中找到custom-domain&#34;&gt;2.在settings中找到custom domain&lt;/h6&gt;
-&lt;h6 id=&#34;3输入新域名&#34;&gt;3.输入新域名&lt;/h6&gt;
-&lt;h6 id=&#34;4在github-pages下显示绿色的就可以&#34;&gt;4.在github pages下显示绿色的√就可以&lt;/h6&gt;
-&lt;h6 id=&#34;5访问新域名就可以看到网页了&#34;&gt;5.访问新域名就可以看到网页了&lt;/h6&gt;
-&lt;h5 id=&#34;第二种做法&#34;&gt;&lt;strong&gt;第二种做法：&lt;/strong&gt;&lt;/h5&gt;
-&lt;p&gt;1.打开域名解析&lt;/p&gt;
-&lt;p&gt;2.配置&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;主机记录&lt;/th&gt;
-&lt;th&gt;记录类型&lt;/th&gt;
-&lt;th&gt;isp&lt;/th&gt;
-&lt;th&gt;记录值&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;www&lt;/td&gt;
-&lt;td&gt;A&lt;/td&gt;
-&lt;td&gt;默认&lt;/td&gt;
-&lt;td&gt;用ping你的github地址&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;@&lt;/td&gt;
-&lt;td&gt;CNAME&lt;/td&gt;
-&lt;td&gt;默认&lt;/td&gt;
-&lt;td&gt;昵称.github.io&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;p&gt;参考链接：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/smalcat/article/details/79710039&#34;&gt;https://blog.csdn.net/smalcat/article/details/79710039&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>域名绑定Github仓库</title>
-        <link>https://Poliki.github.io/p/www/</link>
-        <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://Poliki.github.io/p/www/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/www/cover.jpg" alt="Featured image of post 域名绑定Github仓库" /&gt;&lt;h4 id=&#34;博客绑定自定义的域名&#34;&gt;博客绑定自定义的域名&lt;/h4&gt;
+        <guid>https://example.com/p/www/</guid>
+        <description>&lt;img src="https://example.com/p/www/cover.jpg" alt="Featured image of post 域名绑定Github仓库" /&gt;&lt;h4 id=&#34;博客绑定自定义的域名&#34;&gt;博客绑定自定义的域名&lt;/h4&gt;
 &lt;h5 id=&#34;阿里云其他云搞域名&#34;&gt;阿里云/其他云搞域名&lt;/h5&gt;
 &lt;h6 id=&#34;1实名制&#34;&gt;1.实名制&lt;/h6&gt;
 &lt;h6 id=&#34;2购买域名并备案&#34;&gt;2.购买域名,并备案&lt;/h6&gt;
@@ -304,11 +250,11 @@
         </item>
         <item>
         <title>更改主题样式</title>
-        <link>https://Poliki.github.io/p/changeui/</link>
+        <link>https://example.com/p/changeui/</link>
         <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://Poliki.github.io/p/changeui/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/changeui/cover.jpg" alt="Featured image of post 更改主题样式" /&gt;&lt;h5 id=&#34;编辑你的博客主题&#34;&gt;编辑你的博客主题&lt;/h5&gt;
+        <guid>https://example.com/p/changeui/</guid>
+        <description>&lt;img src="https://example.com/p/changeui/cover.jpg" alt="Featured image of post 更改主题样式" /&gt;&lt;h5 id=&#34;编辑你的博客主题&#34;&gt;编辑你的博客主题&lt;/h5&gt;
 &lt;p&gt;今天来自定义Hugo使用的&lt;strong&gt;stack&lt;/strong&gt;主题&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;首先去到了主题的站点寻求说明文件，&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -316,9 +262,9 @@
 &lt;h6 id=&#34;1站点全局设置&#34;&gt;1.站点全局设置&lt;/h6&gt;
 &lt;p&gt;Hugo 的配置存放在站点根目录的 &lt;code&gt;config.toml&lt;/code&gt; 里&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-		&lt;a href=&#34;https://Poliki.github.io/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE.png&#34; data-size=&#34;780x522&#34;&gt;
-			&lt;img srcset=&#34;https://Poliki.github.io/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE_hu4194f980b633554a2befdd3aa6c62af8_33000_480x0_resize_box_2.png 480w, https://Poliki.github.io/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE_hu4194f980b633554a2befdd3aa6c62af8_33000_1024x0_resize_box_2.png 1024w&#34;
-				src=&#34;https://Poliki.github.io/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE.png&#34; width=&#34;780&#34; height=&#34;522&#34; loading=&#34;lazy&#34;
+		&lt;a href=&#34;https://example.com/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE.png&#34; data-size=&#34;780x522&#34;&gt;
+			&lt;img srcset=&#34;https://example.com/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE_hu4194f980b633554a2befdd3aa6c62af8_33000_480x0_resize_box_2.png 480w, https://example.com/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE_hu4194f980b633554a2befdd3aa6c62af8_33000_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://example.com/p/changeui/%E7%AB%99%E7%82%B9%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE.png&#34; width=&#34;780&#34; height=&#34;522&#34; loading=&#34;lazy&#34;
 				alt=&#34;全局设置&#34;&gt;
 		&lt;/a&gt;
 		
@@ -328,9 +274,9 @@
 &lt;p&gt;在这里我们可以知道默认文章会放在content/post文件夹下面&lt;/p&gt;
 &lt;h6 id=&#34;2侧边栏设置&#34;&gt;2.侧边栏设置&lt;/h6&gt;
 &lt;p&gt;&lt;figure&gt;
-		&lt;a href=&#34;https://Poliki.github.io/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; data-size=&#34;685x390&#34;&gt;
-			&lt;img srcset=&#34;https://Poliki.github.io/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F_hu89bf0ffdf5bfd95c9cc35f066c83f4b2_17589_480x0_resize_box_2.png 480w, https://Poliki.github.io/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F_hu89bf0ffdf5bfd95c9cc35f066c83f4b2_17589_1024x0_resize_box_2.png 1024w&#34;
-				src=&#34;https://Poliki.github.io/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; width=&#34;685&#34; height=&#34;390&#34; loading=&#34;lazy&#34;
+		&lt;a href=&#34;https://example.com/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; data-size=&#34;685x390&#34;&gt;
+			&lt;img srcset=&#34;https://example.com/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F_hu89bf0ffdf5bfd95c9cc35f066c83f4b2_17589_480x0_resize_box_2.png 480w, https://example.com/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F_hu89bf0ffdf5bfd95c9cc35f066c83f4b2_17589_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://example.com/p/changeui/%E5%B7%A6%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; width=&#34;685&#34; height=&#34;390&#34; loading=&#34;lazy&#34;
 				alt=&#34;左侧边栏&#34;&gt;
 		&lt;/a&gt;
 		
@@ -343,9 +289,9 @@
 &lt;p&gt;需要一系列操作，本次先不执行&lt;/p&gt;
 &lt;h6 id=&#34;4右侧边栏&#34;&gt;4.右侧边栏&lt;/h6&gt;
 &lt;p&gt;&lt;figure&gt;
-		&lt;a href=&#34;https://Poliki.github.io/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; data-size=&#34;685x542&#34;&gt;
-			&lt;img srcset=&#34;https://Poliki.github.io/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F_hue03cd2ba5fb313d9b9b5e056f6543844_22556_480x0_resize_box_2.png 480w, https://Poliki.github.io/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F_hue03cd2ba5fb313d9b9b5e056f6543844_22556_1024x0_resize_box_2.png 1024w&#34;
-				src=&#34;https://Poliki.github.io/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; width=&#34;685&#34; height=&#34;542&#34; loading=&#34;lazy&#34;
+		&lt;a href=&#34;https://example.com/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; data-size=&#34;685x542&#34;&gt;
+			&lt;img srcset=&#34;https://example.com/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F_hue03cd2ba5fb313d9b9b5e056f6543844_22556_480x0_resize_box_2.png 480w, https://example.com/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F_hue03cd2ba5fb313d9b9b5e056f6543844_22556_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://example.com/p/changeui/%E5%8F%B3%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&#34; width=&#34;685&#34; height=&#34;542&#34; loading=&#34;lazy&#34;
 				alt=&#34;右侧边栏&#34;&gt;
 		&lt;/a&gt;
 		
@@ -354,9 +300,9 @@
 	&lt;/figure&gt;&lt;/p&gt;
 &lt;h6 id=&#34;5自定义菜单&#34;&gt;5.自定义菜单&lt;/h6&gt;
 &lt;p&gt;&lt;figure&gt;
-		&lt;a href=&#34;https://Poliki.github.io/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95.png&#34; data-size=&#34;793x674&#34;&gt;
-			&lt;img srcset=&#34;https://Poliki.github.io/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95_hu785731e9bf9dcb0ab2e106e8b4026728_24384_480x0_resize_box_2.png 480w, https://Poliki.github.io/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95_hu785731e9bf9dcb0ab2e106e8b4026728_24384_1024x0_resize_box_2.png 1024w&#34;
-				src=&#34;https://Poliki.github.io/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95.png&#34; width=&#34;793&#34; height=&#34;674&#34; loading=&#34;lazy&#34;
+		&lt;a href=&#34;https://example.com/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95.png&#34; data-size=&#34;793x674&#34;&gt;
+			&lt;img srcset=&#34;https://example.com/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95_hu785731e9bf9dcb0ab2e106e8b4026728_24384_480x0_resize_box_2.png 480w, https://example.com/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95_hu785731e9bf9dcb0ab2e106e8b4026728_24384_1024x0_resize_box_2.png 1024w&#34;
+				src=&#34;https://example.com/p/changeui/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%8F%9C%E5%8D%95.png&#34; width=&#34;793&#34; height=&#34;674&#34; loading=&#34;lazy&#34;
 				alt=&#34;自定义菜单&#34;&gt;
 		&lt;/a&gt;
 		
@@ -368,11 +314,11 @@
         </item>
         <item>
         <title>更新博客的操作</title>
-        <link>https://Poliki.github.io/p/update/</link>
+        <link>https://example.com/p/update/</link>
         <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://Poliki.github.io/p/update/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/update/cover.jpg" alt="Featured image of post 更新博客的操作" /&gt;&lt;h4 id=&#34;每日更新hugo&#34;&gt;每日更新Hugo&lt;/h4&gt;
+        <guid>https://example.com/p/update/</guid>
+        <description>&lt;img src="https://example.com/p/update/cover.jpg" alt="Featured image of post 更新博客的操作" /&gt;&lt;h4 id=&#34;每日更新hugo&#34;&gt;每日更新Hugo&lt;/h4&gt;
 &lt;p&gt;一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下&lt;/p&gt;
 &lt;h5 id=&#34;参考博文&#34;&gt;参考博文&lt;/h5&gt;
 &lt;h6 id=&#34;地址&#34;&gt;地址：&lt;/h6&gt;
@@ -394,74 +340,6 @@
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;$ git push 
-git@github.com:Poliki/Poliki.github.io.git
-
-// 上面是ssh地址，也可以换成https的地址
-https://github.com/Poliki/Poliki.github.io.git
-&lt;/code&gt;&lt;/pre&gt;</description>
-        </item>
-        <item>
-        <title>更新博客的操作</title>
-        <link>https://Poliki.github.io/p/update/</link>
-        <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://Poliki.github.io/p/update/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/update/cover.jpg" alt="Featured image of post 更新博客的操作" /&gt;&lt;h4 id=&#34;每日更新hugo&#34;&gt;每日更新Hugo&lt;/h4&gt;
-&lt;p&gt;一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下&lt;/p&gt;
-&lt;h5 id=&#34;参考博文&#34;&gt;参考博文&lt;/h5&gt;
-&lt;h6 id=&#34;地址&#34;&gt;地址：&lt;/h6&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.icode9.com/content-4-642752.html&#34;&gt;https://www.icode9.com/content-4-642752.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;每次更新就来复制一下&lt;/p&gt;
-&lt;p&gt;1.新建一个.md&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ hugo new 文件夹/文件名.md
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2.更新到public文件夹中&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3.常规操作 cd进public文件夹&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ git add .
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;$ git commit -m &amp;quot;这里是描述信息&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5.（非必须）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ git remote add origin https://github.com/Polik/Poliki.github.io.git
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-git&#34; data-lang=&#34;git&#34;&gt;$ git push 
-git@github.com:Poliki/Poliki.github.io.git
-
-// 上面是ssh地址，也可以换成https的地址
-https://github.com/Poliki/Poliki.github.io.git
-&lt;/code&gt;&lt;/pre&gt;</description>
-        </item>
-        <item>
-        <title>Qb</title>
-        <link>https://Poliki.github.io/p/qb/</link>
-        <pubDate>Thu, 10 Dec 2020 02:10:04 +0800</pubDate>
-        
-        <guid>https://Poliki.github.io/p/qb/</guid>
-        <description>&lt;h4 id=&#34;每日更新hugo&#34;&gt;每日更新Hugo&lt;/h4&gt;
-&lt;p&gt;一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下&lt;/p&gt;
-&lt;h5 id=&#34;参考博文&#34;&gt;参考博文&lt;/h5&gt;
-&lt;h6 id=&#34;地址&#34;&gt;地址：&lt;/h6&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.icode9.com/content-4-642752.html&#34;&gt;https://www.icode9.com/content-4-642752.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;每次更新就来复制一下&lt;/p&gt;
-&lt;p&gt;1.新建一个.md&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ hugo new 文件夹/文件名.md
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2.更新到public文件夹中&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3.常规操作 cd进public文件夹&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ git add .
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;$ git commit -m &amp;quot;这里是描述信息&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5.（非必须）&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ git remote add origin https://github.com/Polik/Poliki.github.io.git
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;$ git push 
 git@github.com:Poliki/Poliki.github.io.git
 
 // 上面是ssh地址，也可以换成https的地址
@@ -470,11 +348,11 @@ https://github.com/Poliki/Poliki.github.io.git
         </item>
         <item>
         <title>新建一个hugo站点</title>
-        <link>https://Poliki.github.io/p/newhugo/</link>
+        <link>https://example.com/p/newhugo/</link>
         <pubDate>Thu, 10 Dec 2020 01:51:08 +0800</pubDate>
         
-        <guid>https://Poliki.github.io/p/newhugo/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/newhugo/cover.jpg" alt="Featured image of post 新建一个hugo站点" /&gt;&lt;h4 id=&#34;再装hugo&#34;&gt;再装Hugo&lt;/h4&gt;
+        <guid>https://example.com/p/newhugo/</guid>
+        <description>&lt;img src="https://example.com/p/newhugo/cover.jpg" alt="Featured image of post 新建一个hugo站点" /&gt;&lt;h4 id=&#34;再装hugo&#34;&gt;再装Hugo&lt;/h4&gt;
 &lt;p&gt;主要是重装后配的hugo都么有了，这次重新看以前的笔记和视频来配置一次&lt;/p&gt;
 &lt;h5 id=&#34;建博初衷&#34;&gt;建博初衷&lt;/h5&gt;
 &lt;p&gt;无限听说&amp;quot;&lt;strong&gt;程序员拥有自己的技术博客是一件非常重要的事情&lt;/strong&gt;&amp;quot;&lt;/p&gt;
@@ -551,11 +429,11 @@ $ git push https://github.com/Poliki/Poliki.github.io master
         </item>
         <item>
         <title>Start</title>
-        <link>https://Poliki.github.io/p/start/</link>
+        <link>https://example.com/p/start/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://Poliki.github.io/p/start/</guid>
-        <description>&lt;img src="https://Poliki.github.io/p/start/cover.jpg" alt="Featured image of post Start" /&gt;&lt;h2 id=&#34;md写法&#34;&gt;MD写法&lt;/h2&gt;
+        <guid>https://example.com/p/start/</guid>
+        <description>&lt;img src="https://example.com/p/start/cover.jpg" alt="Featured image of post Start" /&gt;&lt;h2 id=&#34;md写法&#34;&gt;MD写法&lt;/h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
 &lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
