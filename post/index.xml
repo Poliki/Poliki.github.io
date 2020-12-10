@@ -6,7 +6,103 @@
     <description>Recent content in Posts on Poliki&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Dec 2020 02:10:04 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 22:15:14 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MongoDB基础</title>
+      <link>https://Poliki.github.io/p/mongodb%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Thu, 10 Dec 2020 22:15:14 +0800</pubDate>
+      
+      <guid>https://Poliki.github.io/p/mongodb%E5%9F%BA%E7%A1%80/</guid>
+      <description>MongoDB 一、简介 MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。
+MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的
+ 二、概念解析    概念/术语 解释/说明     database 数据库   collection 数据库表/集合   field 数据字段/域   index 索引   primary key 主键，默认将id设为主键    文档（Document） 文档是一组键值(key-value)对(即 BSON)。MongoDB 的文档不需要设置相同的字段，并且相同的字段不需要相同的数据类型，这与关系型数据库有很大的区别，也是 MongoDB 非常突出的特点。
+一个简单的文档例子如下：
+{&amp;#34;site&amp;#34;:&amp;#34;www.blogpoliki.top&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;我的博客&amp;#34;} 集合（关系数据库中的表格） 集合存在于数据库中，集合没有固定的结构，这意味着你在对集合可以插入不同格式和类型的数据，但通常情况下我们插入集合的数据都会有一定的关联性
+数据类型    数据类型 描述     String 字符串，UTF-8编码才是合法的   Integer 整型   Boolean 布尔型   Double 浮点型   Array 将数组或列表或多个值 存储为一个健   Min/Max key 将一个值与 BSON（二进制的 JSON）元素的最低值和最高值相对比   Timestamp 时间戳   Object 用于内嵌文档   Null 空值   Symbol 一般用于采用特殊符号类型的语言   Date 日期时间    关系 MongoDB 的关系表示多个文档之间在逻辑上的相互联系。</description>
+    </item>
+    
+    <item>
+      <title>域名绑定Github仓库</title>
+      <link>https://Poliki.github.io/p/www/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/www/</guid>
+      <description>博客绑定自定义的域名 阿里云/其他云搞域名 1.实名制 2.购买域名,并备案  3.获得SSL证书 在原站点可以选择免费的证书
+用了SSL证书才能在服务器上转发
+ 将新的域名链接到GIthub的 第一种做法：
+1.打开github对应的仓库 2.在settings中找到custom domain 3.输入新域名 4.在github pages下显示绿色的√就可以 5.访问新域名就可以看到网页了 第二种做法： 1.打开域名解析
+2.配置
+   主机记录 记录类型 isp 记录值     www A 默认 用ping你的github地址   @ CNAME 默认 昵称.github.io     参考链接：
+https://blog.csdn.net/smalcat/article/details/79710039</description>
+    </item>
+    
+    <item>
+      <title>域名绑定Github仓库</title>
+      <link>https://Poliki.github.io/p/www/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/www/</guid>
+      <description>博客绑定自定义的域名 阿里云/其他云搞域名 1.实名制 2.购买域名,并备案  3.获得SSL证书 在原站点可以选择免费的证书
+用了SSL证书才能在服务器上转发
+ 将新的域名链接到GIthub的 第一种做法：
+1.打开github对应的仓库 2.在settings中找到custom domain 3.输入新域名 4.在github pages下显示绿色的√就可以 5.访问新域名就可以看到网页了 第二种做法： 1.打开域名解析
+2.配置
+   主机记录 记录类型 isp 记录值     www A 默认 用ping你的github地址   @ CNAME 默认 昵称.github.io     参考链接：
+https://blog.csdn.net/smalcat/article/details/79710039</description>
+    </item>
+    
+    <item>
+      <title>更改主题样式</title>
+      <link>https://Poliki.github.io/p/changeui/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/changeui/</guid>
+      <description>编辑你的博客主题 今天来自定义Hugo使用的stack主题
+ 首先去到了主题的站点寻求说明文件，主题说明一步步往下看
+1.站点全局设置 Hugo 的配置存放在站点根目录的 config.toml 里
+  全局设置 
+在这里我们可以知道默认文章会放在content/post文件夹下面
+2.侧边栏设置   左侧边栏 
+可以修改头像内容、站点介绍
+头像默认是150×150 px 需要对头像修改一下尺寸
+3.评论设置 需要一系列操作，本次先不执行
+4.右侧边栏   右侧边栏 
+5.自定义菜单   自定义菜单 
+结果是一改就报错了</description>
+    </item>
+    
+    <item>
+      <title>更新博客的操作</title>
+      <link>https://Poliki.github.io/p/update/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/update/</guid>
+      <description>每日更新Hugo 一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下
+参考博文 地址： https://www.icode9.com/content-4-642752.html
+每次更新就来复制一下
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot; 5.（非必须）
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push git@github.com:Poliki/Poliki.github.io.git // 上面是ssh地址，也可以换成https的地址 https://github.com/Poliki/Poliki.github.io.git </description>
+    </item>
+    
+    <item>
+      <title>更新博客的操作</title>
+      <link>https://Poliki.github.io/p/update/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/update/</guid>
+      <description>每日更新Hugo 一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下
+参考博文 地址： https://www.icode9.com/content-4-642752.html
+每次更新就来复制一下
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot; 5.（非必须）
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push git@github.com:Poliki/Poliki.github.io.git // 上面是ssh地址，也可以换成https的地址 https://github.com/Poliki/Poliki.github.io.git </description>
+    </item>
+    
     <item>
       <title>Qb</title>
       <link>https://Poliki.github.io/p/qb/</link>

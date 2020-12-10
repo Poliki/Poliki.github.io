@@ -6,7 +6,89 @@
     <description>Recent content in BLOG on Poliki&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Dec 2020 01:51:08 +0800</lastBuildDate><atom:link href="https://Poliki.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://Poliki.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>域名绑定Github仓库</title>
+      <link>https://Poliki.github.io/p/www/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/www/</guid>
+      <description>博客绑定自定义的域名 阿里云/其他云搞域名 1.实名制 2.购买域名,并备案  3.获得SSL证书 在原站点可以选择免费的证书
+用了SSL证书才能在服务器上转发
+ 将新的域名链接到GIthub的 第一种做法：
+1.打开github对应的仓库 2.在settings中找到custom domain 3.输入新域名 4.在github pages下显示绿色的√就可以 5.访问新域名就可以看到网页了 第二种做法： 1.打开域名解析
+2.配置
+   主机记录 记录类型 isp 记录值     www A 默认 用ping你的github地址   @ CNAME 默认 昵称.github.io     参考链接：
+https://blog.csdn.net/smalcat/article/details/79710039</description>
+    </item>
+    
+    <item>
+      <title>域名绑定Github仓库</title>
+      <link>https://Poliki.github.io/p/www/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/www/</guid>
+      <description>博客绑定自定义的域名 阿里云/其他云搞域名 1.实名制 2.购买域名,并备案  3.获得SSL证书 在原站点可以选择免费的证书
+用了SSL证书才能在服务器上转发
+ 将新的域名链接到GIthub的 第一种做法：
+1.打开github对应的仓库 2.在settings中找到custom domain 3.输入新域名 4.在github pages下显示绿色的√就可以 5.访问新域名就可以看到网页了 第二种做法： 1.打开域名解析
+2.配置
+   主机记录 记录类型 isp 记录值     www A 默认 用ping你的github地址   @ CNAME 默认 昵称.github.io     参考链接：
+https://blog.csdn.net/smalcat/article/details/79710039</description>
+    </item>
+    
+    <item>
+      <title>更改主题样式</title>
+      <link>https://Poliki.github.io/p/changeui/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/changeui/</guid>
+      <description>编辑你的博客主题 今天来自定义Hugo使用的stack主题
+ 首先去到了主题的站点寻求说明文件，主题说明一步步往下看
+1.站点全局设置 Hugo 的配置存放在站点根目录的 config.toml 里
+  全局设置 
+在这里我们可以知道默认文章会放在content/post文件夹下面
+2.侧边栏设置   左侧边栏 
+可以修改头像内容、站点介绍
+头像默认是150×150 px 需要对头像修改一下尺寸
+3.评论设置 需要一系列操作，本次先不执行
+4.右侧边栏   右侧边栏 
+5.自定义菜单   自定义菜单 
+结果是一改就报错了</description>
+    </item>
+    
+    <item>
+      <title>更新博客的操作</title>
+      <link>https://Poliki.github.io/p/update/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/update/</guid>
+      <description>每日更新Hugo 一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下
+参考博文 地址： https://www.icode9.com/content-4-642752.html
+每次更新就来复制一下
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot; 5.（非必须）
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push git@github.com:Poliki/Poliki.github.io.git // 上面是ssh地址，也可以换成https的地址 https://github.com/Poliki/Poliki.github.io.git </description>
+    </item>
+    
+    <item>
+      <title>更新博客的操作</title>
+      <link>https://Poliki.github.io/p/update/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Poliki.github.io/p/update/</guid>
+      <description>每日更新Hugo 一般网上的视频或者文章只交了你搭建第一次，然后默认你会往后更新的操作了，只是对于我们这些白中白确实需要在仔细研究下
+参考博文 地址： https://www.icode9.com/content-4-642752.html
+每次更新就来复制一下
+1.新建一个.md
+$ hugo new 文件夹/文件名.md 2.更新到public文件夹中
+$ hugo --theme=hugo-theme-stack --buildDrafts --baseUrl=&amp;quot;https://Poliki.github.io/&amp;quot; 3.常规操作 cd进public文件夹
+$ git add .   $ git commit -m &amp;quot;这里是描述信息&amp;quot; 5.（非必须）
+$ git remote add origin https://github.com/Polik/Poliki.github.io.git   $ git push git@github.com:Poliki/Poliki.github.io.git // 上面是ssh地址，也可以换成https的地址 https://github.com/Poliki/Poliki.github.io.git </description>
+    </item>
+    
     <item>
       <title>新建一个hugo站点</title>
       <link>https://Poliki.github.io/p/newhugo/</link>
